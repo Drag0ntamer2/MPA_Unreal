@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\MPA_Unreal.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\MPA_Unreal.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\MPA_UnrealEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\MPA_Unreal">
+      <UniqueIdentifier>{DA2AC521-6E00-37FA-A011-A4D15EF9238D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\MPA_Unreal\CChar.cpp">
+      <Filter>Source\MPA_Unreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MPA_Unreal\CChar.h">
+      <Filter>Source\MPA_Unreal</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\MPA_Unreal\MPA_Unreal.Build.cs">
+      <Filter>Source\MPA_Unreal</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\MPA_Unreal\MPA_Unreal.cpp">
+      <Filter>Source\MPA_Unreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MPA_Unreal\MPA_Unreal.h">
+      <Filter>Source\MPA_Unreal</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\MPA_Unreal\Quirk.cpp">
+      <Filter>Source\MPA_Unreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MPA_Unreal\Quirk.h">
+      <Filter>Source\MPA_Unreal</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "MPA_Unreal",
+			"Path": "..\\Source\\MPA_Unreal.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "MPA_UnrealEditor",
+			"Path": "..\\Source\\MPA_UnrealEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
