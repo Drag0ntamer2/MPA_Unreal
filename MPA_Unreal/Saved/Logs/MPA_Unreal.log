@@ -1901,3 +1901,307 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.25-01.36.04:926][703]LogHttp: Warning: 000004FE8AC96E00: libcurl info message cache 34 (Closing connection)
 [2024.03.25-01.36.04:926][703]LogHttp: Warning: 000004FE8AC96E00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
 [2024.03.25-01.36.04:926][703]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 0 (Found bundle for host: 0x4fe11960030 [serially])
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 6 (Closing connection)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 9 (  Trying 3.225.188.62:443...)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.225.188.62) port 443)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.25-01.39.04:959][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 25 (Server certificate:)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 34 (Closing connection)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: 000004FE8AC9B900: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.25-01.39.04:960][243]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.25-01.42.04:805][955]LogHttp: Warning: 000004FE8AC9FA00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.25-01.42.04:805][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 0 (Found bundle for host: 0x4fe11960030 [serially])
+[2024.03.25-01.42.04:805][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.25-01.42.04:805][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.25-01.42.04:805][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.25-01.42.04:805][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.25-01.42.04:805][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 6 (Closing connection)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 9 (  Trying 3.215.145.236:443...)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (3.215.145.236) port 443)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 25 (Server certificate:)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 34 (Closing connection)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: 000004FE8AC9FA00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.25-01.42.04:806][955]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 0 (Found bundle for host: 0x4fe11960360 [serially])
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 6 (Closing connection)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 9 (  Trying 34.202.42.202:443...)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (34.202.42.202) port 443)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.25-01.45.04:830][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 25 (Server certificate:)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 34 (Closing connection)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: 000004FE8AC94600: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.25-01.45.04:831][495]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.25-01.46.03:688][ 60]Cmd: DELETE
+[2024.03.25-01.46.03:688][ 60]Cmd: ACTOR DELETE
+[2024.03.25-01.46.03:715][ 60]LogEditorActor: Cannot delete actor Landscape /Temp/Untitled_1.Untitled_1:PersistentLevel.Landscape_UAID_A85E45CFE404FBD100_1221515703: Landscape can't be deleted because it still has 64 LandscapeStreamingProxies and 0 LandscapeSplineActors
+[2024.03.25-01.46.03:716][ 60]LogEditorActor: Cannot delete actor WorldDataLayers /Temp/Untitled_1.Untitled_1:PersistentLevel.WorldDataLayers: Actor is not user managed
+[2024.03.25-01.46.03:716][ 60]LogEditorActor: Cannot delete actor WorldPartitionMiniMap /Temp/Untitled_1.Untitled_1:PersistentLevel.WorldPartitionMiniMap_UAID_3497F631D5890DD300_1296925927: Actor is not user managed
+[2024.03.25-01.46.03:786][ 60]LogEditorActor: Deleted Actor: DirectionalLight
+[2024.03.25-01.46.03:802][ 60]LogEditorActor: Deleted Actor: ExponentialHeightFog
+[2024.03.25-01.46.03:803][ 60]LogEditorActor: Deleted Actor: SkyAtmosphere
+[2024.03.25-01.46.03:806][ 60]LogEditorActor: Deleted Actor: SkyLight
+[2024.03.25-01.46.03:808][ 60]LogEditorActor: Deleted Actor: StaticMeshActor
+[2024.03.25-01.46.03:809][ 60]LogEditorActor: Deleted Actor: VolumetricCloud
+[2024.03.25-01.46.03:811][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.03:915][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.03:934][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.03:954][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.03:976][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.03:993][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:011][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:030][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:049][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:068][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:085][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:104][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:121][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:139][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:154][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:172][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:186][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:201][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:215][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:231][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:244][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:257][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:271][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:286][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:300][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:315][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:328][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:345][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:358][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:370][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:381][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:392][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:404][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:416][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:426][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:438][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:448][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:459][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:470][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:481][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:490][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:499][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:508][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:517][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:525][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:533][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:541][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:549][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:556][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:565][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:571][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:578][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:585][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:593][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:601][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:607][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:613][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:619][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:626][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:632][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:636][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:641][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:646][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:651][ 60]LogEditorActor: Deleted Actor: LandscapeStreamingProxy
+[2024.03.25-01.46.04:655][ 60]LogEditorActor: Deleted Actor: PlayerStart
+[2024.03.25-01.46.04:784][ 60]LogUObjectHash: Compacting FUObjectHashTables data took  10.31ms
+[2024.03.25-01.46.04:811][ 60]LogEditorActor: Deleted 71 Actors (1.098 secs)
+[2024.03.25-01.46.13:496][560]Cmd: DELETE
+[2024.03.25-01.46.13:496][560]Cmd: ACTOR DELETE
+[2024.03.25-01.46.13:498][560]LogEditorActor: Deleted Actor: Landscape
+[2024.03.25-01.46.13:503][560]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2024.03.25-01.46.13:504][560]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2024.03.25-01.46.23:132][138]Cmd: DELETE
+[2024.03.25-01.46.23:132][138]Cmd: ACTOR DELETE
+[2024.03.25-01.46.54:082][572]LogUObjectHash: Compacting FUObjectHashTables data took   0.23ms
+[2024.03.25-01.46.54:232][572]LogPackageLocalizationCache: Processed 46 localized package path(s) for 1 prioritized culture(s) in 0.138924 seconds
+[2024.03.25-01.46.54:248][572]LogSavePackage: Moving output files for package: /Temp/Autosaves/Temp/Untitled_1_Auto1
+[2024.03.25-01.46.54:248][572]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Untitled_1_Auto1F11CDD3142A984ED10B7ABABAEEF2522.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2024.03.25-01.46.54:258][572]LogAssetRegistry: Warning: ScanPathsSynchronous: ../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Temp/Untitled_1_Auto1.umap is in the /Temp path, will not scan.
+[2024.03.25-01.46.54:258][572]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalActors__/Autosaves/Temp/Untitled_1_Auto1 is in the /Temp path, will not scan.
+[2024.03.25-01.46.54:258][572]LogAssetRegistry: Warning: ScanPathsSynchronous: /Temp/__ExternalObjects__/Autosaves/Temp/Untitled_1_Auto1 is in the /Temp path, will not scan.
+[2024.03.25-01.46.54:258][572]LogFileHelpers: Editor autosave (incl. external actors) for '/Temp/Untitled_1' took 0.181
+[2024.03.25-01.46.54:258][572]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.181
+[2024.03.25-01.47.01:242][614]LogEditorViewport: Clicking Background
+[2024.03.25-01.47.01:555][632]Cmd: TRANSACTION UNDO
+[2024.03.25-01.47.01:555][632]LogEditorTransaction: Undo Delete Elements
+[2024.03.25-01.47.02:033][642]Cmd: TRANSACTION UNDO
+[2024.03.25-01.47.02:033][642]LogEditorTransaction: Undo Clicking on Actors
+[2024.03.25-01.47.02:289][654]Cmd: TRANSACTION UNDO
+[2024.03.25-01.47.02:289][654]LogEditorTransaction: Undo Delete Elements
+[2024.03.25-01.47.03:662][654]Cmd: TRANSACTION UNDO
+[2024.03.25-01.47.03:662][654]LogEditorTransaction: Undo Clicking on Actors
+[2024.03.25-01.47.03:735][654]Cmd: TRANSACTION UNDO
+[2024.03.25-01.47.03:735][654]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.25-01.47.03:835][654]Cmd: TRANSACTION UNDO
+[2024.03.25-01.47.03:835][654]LogEditorTransaction: Undo Clicking on Elements
+[2024.03.25-01.47.03:838][654]Cmd: TRANSACTION UNDO
+[2024.03.25-01.47.03:838][654]LogEditorTransaction: Undo Edit Enable 2D combined translate + rotate widget
+[2024.03.25-01.47.03:840][654]Cmd: TRANSACTION UNDO
+[2024.03.25-01.47.03:840][654]LogEditorTransaction: Undo Edit Enable 2D combined translate + rotate widget
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 0 (Found bundle for host: 0x4fe119600f0 [serially])
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 3 (Recv failure: Connection was aborted)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 4 (OpenSSL SSL_read: Connection was aborted, errno 10053)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 5 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 6 (state.rewindbeforesend = TRUE)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 7 (Closing connection)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 8 (Recv failure: Connection was aborted)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 9 (Send failure: Connection was aborted)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 10 (Recv failure: Connection was aborted)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 11 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 12 (  Trying 34.194.194.155:443...)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 13 (Connected to datarouter.ol.epicgames.com (34.194.194.155) port 443)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 14 (ALPN: curl offers http/1.1)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 15 (SSL reusing session ID)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 16 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 17 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 18 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 19 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 20 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 21 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 22 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 23 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 24 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 25 (old SSL session ID is stale, removing)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 26 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 27 (ALPN: server accepted http/1.1)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 28 (Server certificate:)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 29 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 30 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 31 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 32 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 33 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 34 ( SSL certificate verify ok.)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 35 (using HTTP/1.1)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 36 (necessary data rewind wasn't possible)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 37 (Closing connection)
+[2024.03.25-01.47.05:414][660]LogHttp: Warning: 000004FE8AE2E100: libcurl info message cache 38 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.25-01.47.05:415][660]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.25-01.50.05:066][434]LogHttp: Warning: 000004FE6839A000: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 0 (Found bundle for host: 0x4fe119600f0 [serially])
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 6 (Closing connection)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 9 (  Trying 52.0.94.108:443...)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (52.0.94.108) port 443)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 25 (Server certificate:)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 34 (Closing connection)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: 000004FE6839A000: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.25-01.50.05:067][434]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BECCC8E9C-4E31-B462-592B-3BB0925D9DD9%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream

@@ -11,8 +11,8 @@ using Mind = std::vector<string>;
 using std::map;
 using std::pair;
 using std::function;
-
-
+using wg_func = function<void(int)>;
+using wl_func = function<void(int)>;
 
 /**
  * 
@@ -46,6 +46,8 @@ class MPA_UNREAL_API CChar
 	
 
 public:
+	// Setters
+	void bodyChange(map<string, int>); 
 
 
 	// Public Methods
@@ -77,15 +79,17 @@ public:
 
 
 
-// Weight Gain Functions
-struct wg_TopHeavy {
-	void operator()(CChar&, int);
+// Standard Weight Function Generators
+struct TopHeavy {
+	wg_func wg(CChar&, int);
+	wl_func wl(CChar&, int);
 };
 struct wg_Distributed{
-	void operator()(CChar&, int);
+	wg_func wg(CChar&, int);
+	wl_func wl(CChar&, int);
 };
 struct wg_BottomHeavy{
-	void operator()(CChar&, int);
+	wg_func wg(CChar&, int);
+	wl_func wl(CChar&, int);
 };
-
 
