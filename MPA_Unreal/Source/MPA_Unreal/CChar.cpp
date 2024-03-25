@@ -3,13 +3,20 @@
 
 #include "CChar.h"
 
-bool CChar::Learn(string)
+bool CChar::learn(string fact)
 {
+	for (string thing : knowledge) {
+		if (thing == fact) return true;
+	}
+	knowledge.push_back(fact);
 	return false;
 }
 
-bool CChar::Knows(string)
+bool CChar::knows(string fact)
 {
+	for (string thing : knowledge) {
+		if (thing == fact) return true;
+	}
 	return false;
 }
 
@@ -31,6 +38,23 @@ CChar::CChar()
 {
 }
 
+CChar::CChar(string n, bool s, Quirk q, map<string, int> body)
+{
+	processName(n);
+	sex = s;
+	for (pair<string, int> s : body) {
+		if (s.first == "boobs") boobs = s.second; 
+		if (s.first == "butt") butt = s.second; 
+		if (s.first == "fit") fit = s.second;
+		if (s.first == "fat") fat = s.second;
+	}
+}
+
 CChar::~CChar()
 {
+}
+
+bool CChar::operator==(string Name) 
+{
+	return Name == name || Name == fname;
 }
