@@ -33,12 +33,7 @@ Quirk CChar::quirk(string s = "")
 	}
 }
 
-
-CChar::CChar()
-{
-}
-
-CChar::CChar(string n, bool s, Quirk q, map<string, int> body)
+CChar::CChar(string n, bool s, Quirk q, map<string, int> body, wg_func wg, wl_func wl)
 {
 	processName(n);
 	sex = s;
@@ -48,13 +43,46 @@ CChar::CChar(string n, bool s, Quirk q, map<string, int> body)
 		if (s.first == "fit") fit = s.second;
 		if (s.first == "fat") fat = s.second;
 	}
-}
-
-CChar::~CChar()
-{
+	gain = wg;
+	burn = wl;
 }
 
 bool CChar::operator==(string Name) 
 {
 	return Name == name || Name == fname;
+}
+
+CChar& CChar::operator+(Quirk q)
+{
+	quirks.push_back(q);
+	return *this;
+}
+
+void CChar::operator+=(int i)
+{
+	gain(i);
+}
+
+void CChar::operator-=(int i)
+{
+	burn(i);
+}
+
+void CChar::operator++()
+{
+	gain(1);
+}
+
+void CChar::operator--()
+{
+	burn(1);
+}
+
+wg_func TopHeavy::wg(CChar& c, int scalar)
+{
+	return [&](int i) -> void {
+		map<string, int> vals;
+		vals["boobs"] = scalar * i;
+		c.bodyChange(vals);
+	};
 }

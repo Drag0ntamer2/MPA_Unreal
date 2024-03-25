@@ -32,8 +32,8 @@ class MPA_UNREAL_API CChar
 
 	// Attributes
 	vector<Quirk> quirks; 
-	int bbs = 0;
-	int btt = 0;
+	int boobs = 0;
+	int butt = 0;
 	int fit = 50;
 	int fat = 50;
 	bool sex = true; // male
@@ -53,27 +53,30 @@ public:
 	// Public Methods
 	bool learn(string);
 	bool knows(string); 
-
+	wg_func gain;
+	wl_func burn;
 	 
 	// Getters
 	Quirk quirk(string);
 
 	// Constructors
-	CChar();
+	CChar() = default;
 	// name + sex + quirk + body info + weight gain function
-	CChar(string, bool, Quirk, map<string, int>, function<void(CChar&, int)>);
+	CChar(string, bool, Quirk, map<string, int>, wg_func, wl_func);
 	// name + sex + quirks + body info + weight gain function
-	CChar(string, bool, vector<Quirk>, map<string, int>, function<void(CChar&, int)>);
+	CChar(string, bool, vector<Quirk>, map<string, int>, wg_func, wl_func);
 
 
 	// Operator Overloads
 	bool operator==(string);
 	CChar& operator+(Quirk);
-	void operator++();
-	void operator--();
+	void operator+=(int); // weight gain by num
+	void operator-=(int); // weight loss by num
+	void operator++(); // weight gain by 1
+	void operator--(); // weight loss by 1
 
 	// Destructor
-	~CChar();
+	~CChar() = default;
 
 };
 
@@ -84,11 +87,11 @@ struct TopHeavy {
 	wg_func wg(CChar&, int);
 	wl_func wl(CChar&, int);
 };
-struct wg_Distributed{
+struct Distributed{
 	wg_func wg(CChar&, int);
 	wl_func wl(CChar&, int);
 };
-struct wg_BottomHeavy{
+struct BottomHeavy{
 	wg_func wg(CChar&, int);
 	wl_func wl(CChar&, int);
 };
