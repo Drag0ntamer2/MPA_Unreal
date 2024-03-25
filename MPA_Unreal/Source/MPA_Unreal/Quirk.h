@@ -18,10 +18,17 @@ using std::ostringstream;
  */
 class MPA_UNREAL_API Quirk
 {
+	int stren; 
+	int spd;
+	
 public:
 	string name;
 
+	Quirk(string n, int spdMultiplier, int strenMultiplier): name(n), spd(spdMultiplier), stren(strenMultiplier) {}
 
-	Quirk();
-	~Quirk();
+
+
+	Quirk() = default;
+	~Quirk() = default;
 };
+
