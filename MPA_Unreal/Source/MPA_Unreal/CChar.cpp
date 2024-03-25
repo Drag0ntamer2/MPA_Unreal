@@ -43,9 +43,9 @@ void CChar::processName(string n)
 	}
 	name = nameParts[0];
 }
-void CChar::bodyChange(map<string, int> body)
+void CChar::processKwargs(kwargs body)
 {
-	for (pair<string, int> s : body) {
+	for (pair<string, float> s : body) {
 		if (s.first == "boobs") boobs = s.second;
 		if (s.first == "butt") butt = s.second;
 		if (s.first == "fit") fit = s.second;
@@ -55,21 +55,16 @@ void CChar::bodyChange(map<string, int> body)
 
 
 // Constructors
-CChar::CChar(string n, bool s, Quirk q, map<string, int> body, wg_func wg, wl_func wl)
+CChar::CChar(string n, bool s, Quirk q, wg_func wg, wl_func wl, kwargs body)
 {
 	processName(n);
 	sex = s;
 	quirks = { q };
-	for (pair<string, int> s : body) {
-		if (s.first == "boobs") boobs = s.second; 
-		if (s.first == "butt") butt = s.second; 
-		if (s.first == "fit") fit = s.second;
-		if (s.first == "fat") fat = s.second;
-	}
+	processKwargs(body);
 	gain = wg;
 	burn = wl;
-}
-CChar::CChar(string n, bool s, vector<Quirk> qs, map<string, int> body, wg_func wg, wl_func wl)
+} 
+CChar::CChar(string n, bool s, Quirks qs, wg_func wg, wl_func wl, kwargs body)
 {
 	processName(n);
 	sex = s;
@@ -82,7 +77,7 @@ CChar::CChar(string n, bool s, vector<Quirk> qs, map<string, int> body, wg_func 
 	}
 	gain = wg;
 	burn = wl;
-}
+} 
 
 
 // Comparison Operators
@@ -123,7 +118,7 @@ void CChar::operator--()
 wg_func TopHeavy::wg(CChar& c, int scalar)
 {
 	return [&](int i) -> void {
-		map<string, int> vals;
+		kwargs vals;
 		vals["boobs"] = scalar * i;
 		c.bodyChange(vals);
 	};
@@ -131,7 +126,7 @@ wg_func TopHeavy::wg(CChar& c, int scalar)
 wl_func TopHeavy::wl(CChar& c, int scalar)
 {
 	return [&](int i) -> void {
-		map<string, int> vals;
+		kwargs vals;
 		vals["boobs"] = scalar * i * -1;
 		c.bodyChange(vals);
 	};
@@ -140,7 +135,7 @@ wl_func TopHeavy::wl(CChar& c, int scalar)
 wg_func Distributed::wg(CChar& c, int scalar)
 {
 	return [&](int i) -> void {
-		map<string, int> vals;
+		kwargs vals;
 		vals["boobs"] = scalar * i;
 		vals["fat"] = scalar * i;
 		vals["butt"] = scalar * i;
@@ -150,7 +145,7 @@ wg_func Distributed::wg(CChar& c, int scalar)
 wg_func Distributed::wl(CChar& c, int scalar)
 {
 	return [&](int i) -> void {
-		map<string, int> vals;
+		kwargs vals;
 		vals["boobs"] = scalar * i * -1;
 		vals["fat"] = scalar * i * -1;
 		vals["butt"] = scalar * i * -1;
@@ -161,7 +156,7 @@ wg_func Distributed::wl(CChar& c, int scalar)
 wg_func BottomHeavy::wg(CChar& c, int scalar)
 {
 	return [&](int i) -> void {
-		map<string, int> vals;
+		kwargs vals;
 		vals["butt"] = scalar * i;
 		c.bodyChange(vals);
 	};
@@ -169,8 +164,14 @@ wg_func BottomHeavy::wg(CChar& c, int scalar)
 wg_func BottomHeavy::wl(CChar& c, int scalar)
 {
 	return [&](int i) -> void {
-		map<string, int> vals;
+		kwargs vals;
 		vals["butt"] = scalar * i * -1;
 		c.bodyChange(vals);
 	};
+}
+
+Prey::Prey(CChar* c)
+{
+	prey = c;
+	size = c->size;
 }
