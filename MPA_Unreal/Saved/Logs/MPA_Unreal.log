@@ -5423,3 +5423,101 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.26-13.22.41:720][815]LogHttp: Warning: 000009443FF9C800: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
 [2024.03.26-13.22.41:720][815]LogHttp: Warning: 000009443FF9C800: libcurl info message cache 1 (Closing connection)
 [2024.03.26-13.22.41:720][815]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5AFF5FC2-45CB-C077-2030-BA96830C783D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.26-13.23.20:723][930]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.03.26-13.28.31:482][ 65]Running C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/MPA_Unreal.uproject" -game -rocket -progress
+[2024.03.26-13.28.31:740][ 65]Using bundled DotNet SDK version: 6.0.302
+[2024.03.26-13.28.31:740][ 65]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/MPA_Unreal.uproject" -game -rocket -progress
+[2024.03.26-13.28.32:545][ 65]Log file: C:\Users\Caleb Merroto\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.03.26-13.28.35:060][ 65]
+[2024.03.26-13.28.35:060][ 65]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2024.03.26-13.28.35:060][ 65]See the log file for detailed information
+[2024.03.26-13.28.35:061][ 65]
+[2024.03.26-13.28.35:061][ 65]
+[2024.03.26-13.28.35:061][ 65]Generating VisualStudio project files:
+[2024.03.26-13.28.35:061][ 65]Discovering modules, targets and source code for project...
+[2024.03.26-13.28.38:683][ 65]Binding IntelliSense data...
+[2024.03.26-13.29.26:297][ 65]Binding IntelliSense data... 75%
+[2024.03.26-13.29.26:297][ 65]Binding IntelliSense data... 100%
+[2024.03.26-13.29.26:297][ 65]Creating common properties file...
+[2024.03.26-13.29.26:297][ 65]Creating common properties file... 0%
+[2024.03.26-13.29.26:297][ 65]Writing project files...
+[2024.03.26-13.29.29:014][ 65]Writing project files... 100%
+[2024.03.26-13.29.29:115][ 65]
+[2024.03.26-13.29.29:115][ 65]Generating QueryTargets data for editor...
+[2024.03.26-13.31.26:753][605]Running C:/Program Files/Epic Games/UE_5.3/Engine/Build/BatchFiles/Build.bat  -projectfiles -project="C:/Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/MPA_Unreal.uproject" -game -rocket -progress
+[2024.03.26-13.31.27:117][605]Using bundled DotNet SDK version: 6.0.302
+[2024.03.26-13.31.27:117][605]Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -projectfiles -project="C:/Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/MPA_Unreal.uproject" -game -rocket -progress
+[2024.03.26-13.31.27:920][605]Log file: C:\Users\Caleb Merroto\AppData\Local\UnrealBuildTool\Log_GPF.txt
+[2024.03.26-13.31.30:032][605]
+[2024.03.26-13.31.30:032][605]Some Platforms were skipped due to invalid SDK setup: IOS, Android, Linux, LinuxArm64.
+[2024.03.26-13.31.30:032][605]See the log file for detailed information
+[2024.03.26-13.31.30:032][605]
+[2024.03.26-13.31.30:032][605]
+[2024.03.26-13.31.30:032][605]Generating VisualStudio project files:
+[2024.03.26-13.31.30:133][605]Discovering modules, targets and source code for project...
+[2024.03.26-13.31.32:850][605]Binding IntelliSense data...
+[2024.03.26-13.31.39:389][605]Binding IntelliSense data... 100%
+[2024.03.26-13.31.39:389][605]Creating common properties file...
+[2024.03.26-13.31.39:389][605]Creating common properties file... 0%
+[2024.03.26-13.31.39:389][605]Writing project files...
+[2024.03.26-13.31.41:704][605]Writing project files... 100%
+[2024.03.26-13.31.41:704][605]
+[2024.03.26-13.31.41:704][605]Generating QueryTargets data for editor...
+[2024.03.26-13.32.32:733][817]LogAudioMixer: Display: Audio Buffer Underrun (starvation) detected. InstanceID=1
+[2024.03.26-13.35.56:417][417]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.420 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 631 files in 1079 folders with total size 5 MiB.
+[2024.03.26-14.33.43:129][635]LogHttp: Warning: 0000094453D86E00: request failed, libcurl error: 65 (Send failed since rewinding of the data stream failed)
+[2024.03.26-14.33.43:130][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 0 (Found bundle for host: 0x943f5970060 [serially])
+[2024.03.26-14.33.43:130][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.26-14.33.43:131][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.26-14.33.43:131][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.26-14.33.43:131][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.26-14.33.43:131][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.26-14.33.43:131][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 6 (Closing connection)
+[2024.03.26-14.33.43:132][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.26-14.33.43:132][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5AFF5FC2-45CB-C077-2030-BA96830C783D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 9 (  Trying 54.85.209.105:443...)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 10 (Connected to datarouter.ol.epicgames.com (54.85.209.105) port 443)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 11 (ALPN: curl offers http/1.1)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 12 (SSL reusing session ID)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 13 (TLSv1.3 (OUT), TLS handshake, Client hello (1):)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 14 (TLSv1.3 (IN), TLS handshake, Server hello (2):)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 15 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 16 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 18 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 19 (TLSv1.2 (OUT), TLS change cipher, Change cipher spec (1):)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 20 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 21 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 22 (old SSL session ID is stale, removing)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 23 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 24 (ALPN: server accepted http/1.1)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 25 (Server certificate:)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 26 ( subject: CN=datarouter.cfef.live.use1a.on.epicgames.com)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 27 ( start date: Mar  4 00:00:00 2024 GMT)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 28 ( expire date: Apr  2 23:59:59 2025 GMT)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 29 ( subjectAltName: host "datarouter.ol.epicgames.com" matched cert's "datarouter.ol.epicgames.com")
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 30 ( issuer: C=US; O=Amazon; CN=Amazon RSA 2048 M03)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 31 ( SSL certificate verify ok.)
+[2024.03.26-14.33.43:133][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 32 (using HTTP/1.1)
+[2024.03.26-14.33.43:134][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 33 (necessary data rewind wasn't possible)
+[2024.03.26-14.33.43:134][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 34 (Closing connection)
+[2024.03.26-14.33.43:134][635]LogHttp: Warning: 0000094453D86E00: libcurl info message cache 35 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.26-14.33.43:134][635]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5AFF5FC2-45CB-C077-2030-BA96830C783D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.26-14.35.55:120][ 24]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.119 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 631 files in 1079 folders with total size 5 MiB.
+[2024.03.26-15.35.55:115][640]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.107 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 631 files in 1079 folders with total size 5 MiB.
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 0 (Found bundle for host: 0x943f5970bd0 [serially])
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 3 (TLSv1.2 (IN), TLS alert, close notify (256):)
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 4 (Connection died, retrying a fresh connect (retry count: 1))
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 5 (state.rewindbeforesend = TRUE)
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 6 (Closing connection)
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 7 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 8 (Issue another request to this URL: 'https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5AFF5FC2-45CB-C077-2030-BA96830C783D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream')
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 9 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: 0000094453D88C00: libcurl info message cache 10 (Closing connection)
+[2024.03.26-16.12.53:084][183]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5AFF5FC2-45CB-C077-2030-BA96830C783D%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.03.26-16.35.55:155][260]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.137 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 631 files in 1079 folders with total size 5 MiB.
+[2024.03.26-17.35.56:109][888]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.076 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 631 files in 1079 folders with total size 5 MiB.
+[2024.03.26-18.35.55:135][501]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.099 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 631 files in 1079 folders with total size 5 MiB.

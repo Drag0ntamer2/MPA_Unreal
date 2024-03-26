@@ -19,9 +19,11 @@ using wl_func = function<void(int)>;
 using ex_func = function<void(int)>;
 using std::istringstream;
 using std::getline;
-using kwargs = map<string, float>;
+using Body = map<string, float>;
+using Body = map<string, float>;
 using Quirks = vector<Quirk>;
 using Stomach = vector<Prey>;
+using BdPart = std::pair<string, float>;
 
 
 // Global Variables
@@ -54,8 +56,8 @@ float preyDeath = 25; // percent digestion at which a prey dies
  *  - peopleUnbirthed --- the number of people this character has unbirthed						(default = 0)
  *  - stomachCapacity --- how much food can fit in the character's stomach						(average = 1)
  *  - stomachFillLevel -- how much space is currently being taken up in the character's stomach (default = 0)
- *  - digestionRate ----- how quickly space in the character's stomach is freed up by digestion	(average = 1)
- *  - absorptionRate ---- how quickly dissolved food is absorbed by the character's body		(average = 1)
+ *  - acidStrength ------ how quickly space in the character's stomach is freed up by digestion	(average = 1)
+ *  - absRate ----------- how quickly dissolved food is absorbed by the character's body		(average = 1)
  *  - size -------------- how much space this character would take up in someone else's stomach	(average = 1)
  *  - stomach ----------- a list of the prey are currently in the character's stomach
  *  - isPrey ------------ is this character either currently in a stomach, or already digested
@@ -72,7 +74,7 @@ float preyDeath = 25; // percent digestion at which a prey dies
  *  - processName: ---- takes a string containing the character's full name, and uses it to fill all
  *  					name-related fields
  *
- *  - kwargs: --------- >Under Construction<
+ *  - Body: --------- >Under Construction<
  * 
  * 
  *				Information
@@ -102,14 +104,6 @@ float preyDeath = 25; // percent digestion at which a prey dies
  *						 the character's primary quirk (quirks[0])
  * 
  *	- Char + Quirk: ---- adds a quirk to the character's list of quirks
- * 
- *	- Char += int: ----- increases the character's weight by the given value
- * 
- *	- Char -= int: ----- decreases the character's weight by the given value
- * 
- *	- Char++: ---------- increments the character's weight
- * 
- *	- Char--:	-------- decrements the character's weight
  * 
  *  - gain: ------------ the character's weight gain function
  * 
@@ -158,7 +152,7 @@ class MPA_UNREAL_API CChar
 	// Private Helper Functions
 	void processName(string);
 public:
-	void processKwargs(kwargs);
+	void updateBody(Body);
 
 
 	//*********************** DATA ***********************\\
@@ -174,11 +168,8 @@ public:
 	Mind inventory;
 
 	// Attribute Data
-	Quirks quirks;  
-	float boobs = 0;
-	float butt = 0;
-	float fit = 0;
-	float fat = 0;
+	Quirks quirks;
+	Body body;
 	bool sex = true; // male
 	
 	// Vore Data
@@ -186,8 +177,8 @@ public:
 	int preyDigested = 0;
 	float stomachCapacity = 1;
 	float stomachFillLevel = 0;
-	float digestionRate = 1;
-	float absorptionRate = 1;
+	float acidStrength = 1;
+	float absRate = 1;
 	float size = 1;
 	Stomach stomach;
 	bool isPrey;
@@ -211,14 +202,12 @@ public:
 	wg_func gain; 
 	wl_func burn; 
 	ex_func musc; 
-	void operator+=(int);
-	void operator-=(int);
-	void operator++();
-	void operator--();
 
 	// Vore Methods
 	void swallow(const CChar&);
 	bool churn(int);
+	float digest(Prey&, float);
+	float absorb(Prey&, float);
 	bool livePrey();
 	inline operator Prey() { return Prey(this); }
 	void empty();
@@ -226,8 +215,8 @@ public:
 
 	// Constructors
 	CChar() = default;
-	CChar(string, bool,  Quirk, wg_func, wl_func, kwargs);
-	CChar(string, bool, Quirks, wg_func, wl_func, kwargs); 
+	CChar(string, bool,  Quirk, wg_func, wl_func, Body);
+	CChar(string, bool, Quirks, wg_func, wl_func, Body); 
 	CChar(string); // file input
 
 	// Misc Operators
@@ -242,18 +231,22 @@ public:
 
 
 /******  Standard Weight Function Generators  ******
- *  
+ *  generate weight gain functions that take an amount of absorbed mass
+ *  and apply it to the character's body
  */
 struct TopHeavy {
-	wg_func wg(CChar&, int);
-	wl_func wl(CChar&, int);
+	wg_func wg(CChar&);
+	wl_func wl(CChar&);
 };
 struct Distributed{
-	wg_func wg(CChar&, int);
-	wl_func wl(CChar&, int);
+	wg_func wg(CChar&);
+	wl_func wl(CChar&);
 };
 struct BottomHeavy{
-	wg_func wg(CChar&, int);
-	wl_func wl(CChar&, int);
+	wg_func wg(CChar&);
+	wl_func wl(CChar&);
 };
-
+struct CustomWeightChange {
+	wg_func wg(CChar&, Body);
+	wl_func wl(CChar&, Body); 
+};

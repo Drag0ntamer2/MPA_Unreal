@@ -58,15 +58,6 @@ void CChar::processName(string n)
 	}
 	name = nameParts[0];
 }
-void CChar::processKwargs(kwargs body)
-{
-	for (pair<string, float> s : body) {
-		if (s.first == "boobs") boobs = s.second;
-		if (s.first == "butt") butt = s.second;
-		if (s.first == "fit") fit = s.second;
-		if (s.first == "fat") fat = s.second;
-	}
-}
 
 // Vore Functions
 bool CChar::release(string prey)
@@ -85,46 +76,57 @@ bool CChar::churn(int time)
 {
 	if (stomach.empty()) return true;
 
-	float digestionAmount = time * digestionRate;
-	float absorptionAmount = time * absorptionRate;
-	float absorbedMass = 0;
+	float digAmt = time * acidStrength;
+	float absAmt = time * absRate;
+	float absMass = 0;
 	for (Prey prey : stomach) {
-		if (!prey.liquified) {
-			stomachFillLevel -= digestionAmount;
-			prey.digest(digestionAmount);
-
-		}
-			
-
+		// step 1 > digest: 
+		// if digest returns a non-zero value, that means the prey is fully liquified
+		// dividing the number returned by the digest function by the acid strength
+		// should return the remaining time not used to liquify this prey. 
+		// multiplying that number by the character's absorbtion rate will result in
+		// the how much of this prey is absorbed in this time block. 
+		// this is then added to the overall absorbed mass for this time block as the 
+		// next prey is processed.
+		absMass += absorb(prey, digest(prey, digAmt) / acidStrength * absRate);
 	}
+	gain(absMass);
 
-
-
+	if (stomach.empty()) return true;
 	return false;
+}
+
+float CChar::digest(Prey& prey, float digAmt)
+{
+	stomachFillLevel -= digAmt;
+	prey.digest(digAmt);
+	return digAmt;
+}
+
+float CChar::absorb(Prey& prey, float absAmt) 
+{
+	stomachFillLevel -= absAmt;
+	prey.absorb(absAmt);
+	return absAmt;
 }
 
 
 // Constructors
-CChar::CChar(string n, bool s, Quirk q, wg_func wg, wl_func wl, kwargs body)
+CChar::CChar(string n, bool s, Quirk q, wg_func wg, wl_func wl, Body bdy)
 {
 	processName(n);
 	sex = s;
 	quirks = { q };
-	processKwargs(body);
+	body = bdy;
 	gain = wg;
 	burn = wl;
 } 
-CChar::CChar(string n, bool s, Quirks qs, wg_func wg, wl_func wl, kwargs body)
+CChar::CChar(string n, bool s, Quirks qs, wg_func wg, wl_func wl, Body bdy)
 {
 	processName(n);
 	sex = s;
 	quirks = qs;
-	for (pair<string, int> s : body) {
-		if (s.first == "boobs") boobs = s.second;
-		if (s.first == "butt") butt = s.second;
-		if (s.first == "fit") fit = s.second;
-		if (s.first == "fat") fat = s.second;
-	}
+	body = bdy;
 	gain = wg;
 	burn = wl;
 } 
@@ -145,106 +147,72 @@ CChar& CChar::operator+(Quirk q)
 }
 
 
-// Weight Manipulation Operators
-void CChar::operator+=(int i)
-{
-	gain(i);
-}
-void CChar::operator-=(int i)
-{
-	burn(i);
-}
-void CChar::operator++()
-{
-	gain(1);
-}
-void CChar::operator--()
-{
-	burn(1);
-}
-
-
-
 
 // Standard Weight Gain Function Generators
-wg_func TopHeavy::wg(CChar& c, int scalar)
+wg_func TopHeavy::wg(CChar& c)
 {
-	return [&](int i) -> void {
-		kwargs vals;
-		vals["boobs"] = scalar * i;
-		c.processKwargs(vals);
+	return [&](int mass) -> void {
+		c.body["boobs"] += mass;
 	};
 }
-wl_func TopHeavy::wl(CChar& c, int scalar)
+wl_func TopHeavy::wl(CChar& c)
 {
-	return [&](int i) -> void {
-		kwargs vals;
-		vals["boobs"] = scalar * i * -1;
-		c.processKwargs(vals);
+	return [&](int mass) -> void {
+		c.body["boobs"] += mass * -1;
 	};
 }
 
-wg_func Distributed::wg(CChar& c, int scalar)
+wg_func Distributed::wg(CChar& c)
 {
-	return [&](int i) -> void {
-		kwargs vals;
-		vals["boobs"] = scalar * i;
-		vals["fat"] = scalar * i;
-		vals["butt"] = scalar * i;
-		c.processKwargs(vals);
+	return [&](int mass) -> void {
+		mass /= 4;
+		c.body["boobs"] += mass;
+		c.body["belly"] += mass;
+		c.body["thighs"] += mass;
+		c.body["hips"]  += mass;
 	};
 }
-wg_func Distributed::wl(CChar& c, int scalar)
+wl_func Distributed::wl(CChar& c)
 {
-	return [&](int i) -> void {
-		kwargs vals;
-		vals["boobs"] = scalar * i * -1;
-		vals["fat"] = scalar * i * -1;
-		vals["butt"] = scalar * i * -1;
-		c.processKwargs(vals);
-	};
-}
-
-wg_func BottomHeavy::wg(CChar& c, int scalar)
-{
-	return [&](int i) -> void {
-		kwargs vals;
-		vals["butt"] = scalar * i;
-		c.processKwargs(vals);
-	};
-}
-wg_func BottomHeavy::wl(CChar& c, int scalar)
-{
-	return [&](int i) -> void {
-		kwargs vals;
-		vals["butt"] = scalar * i * -1;
-		c.processKwargs(vals);
+	return [&](int mass) -> void {
+		mass /= 4;
+		c.body["boobs"] -= mass;
+		c.body["midsection"] -= mass;
+		c.body["thighs"] -= mass;
+		c.body["hips"] -= mass;
 	};
 }
 
-Prey::Prey(CChar* c)
+wg_func BottomHeavy::wg(CChar& c)
 {
-	prey = c;
-	size = c->size;
+	return [&](int mass) -> void {
+		mass /= 2;
+		c.body["hips"] += mass; 
+		c.body["thighs"] += mass;
+	};
+}
+wl_func BottomHeavy::wl(CChar& c)
+{
+	return [&](int mass) -> void {
+		mass /= 2;
+		c.body["hips"] -= mass; 
+		c.body["thighs"] -= mass;
+	};
 }
 
-bool Prey::digest(float& digAmt)
-{
-	digLevel += digAmt;
-
-	if (digPercent() >= preyDeath) alive = false;
-
-	if (digLevel > size) {
-		digAmt = digLevel - size;
-		digLevel = size;
-	}
-
-	if (digLevel == size) liquified = true; 
-
-	return liquified;
+wg_func CustomWeightChange::wg(CChar& c, Body distrib) {
+	return [&](int mass) -> void {
+		c.body["boobs"] += mass * distrib["boobs"];
+		c.body["belly"] += mass * distrib["belly"];
+		c.body["thighs"] += mass * distrib["thighs"];
+		c.body["hips"] += mass * distrib["hips"];
+	};
 }
-
-bool Prey::absorb(float&)
-{
-	return false;
+wl_func CustomWeightChange::wl(CChar& c, Body distrib) {
+	return [&](int mass) -> void {
+		c.body["boobs"] -= mass * distrib["boobs"];
+		c.body["belly"] -= mass * distrib["belly"];
+		c.body["thighs"] -= mass * distrib["thighs"];
+		c.body["hips"] -= mass * distrib["hips"]; 
+	};
 }
