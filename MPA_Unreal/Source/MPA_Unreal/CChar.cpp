@@ -2,9 +2,6 @@
 #include "CChar.h"
 
 
-
-
-
 // General Functions
 bool CChar::learn(string fact)
 {
@@ -102,7 +99,6 @@ float CChar::digest(Prey& prey, float digAmt)
 	prey.digest(digAmt);
 	return digAmt;
 }
-
 float CChar::absorb(Prey& prey, float absAmt) 
 {
 	stomachFillLevel -= absAmt;
