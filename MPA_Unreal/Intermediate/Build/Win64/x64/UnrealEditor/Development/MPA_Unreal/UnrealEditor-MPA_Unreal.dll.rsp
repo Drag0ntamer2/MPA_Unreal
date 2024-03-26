@@ -35,9 +35,10 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
 "C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Intermediate\Build\Win64\x64\MPA_UnrealEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
-"C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\MPA_Unreal\CChar.cpp.obj"
 "C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\MPA_Unreal\MPA_Unreal.cpp.obj"
 "C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\MPA_Unreal\Quirk.cpp.obj"
+"C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\MPA_Unreal\CChar.cpp.obj"
+"C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\MPA_Unreal\Prey.cpp.obj"
 "C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Intermediate\Build\Win64\x64\UnrealEditor\Development\MPA_Unreal\Default.rc2.res"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\Core\UnrealEditor-Core.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\CoreUObject\UnrealEditor-CoreUObject.lib"

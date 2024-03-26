@@ -3,12 +3,12 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Prey.h"
 #include "Quirk.h"
 #include <map>
 #include <functional>
 
-class CChar;
-struct Prey;
+class Prey;
 
 using Mind = std::vector<string>;
 using std::map;
@@ -24,33 +24,8 @@ using Quirks = vector<Quirk>;
 using Stomach = vector<Prey>;
 
 
-/******  Prey Struct  ******
- * keeps track of a person who is inside of a stomach
- ***********  DATA  ***********
- *  - prey: -------------- a pointer to the CChar of the prey in question
- *  - digLevel: ---------- how much this prey has been digested
- *  - absLevel: ---------- how much this prey has been absorbed
- *  - alive: ------------- is this character still alive
- *  - size: -------------- how much space the prey currently takes up (defaults to the character's size)
- ***********  Methods  ***********
- *  - digPercent(): ------ returns the digestioin level divided by the prey's size
- *  - operator CChar&(): - typecast to return the prey's CChar object
- *  - Prey(CChar*): ------ construct a prey object from a CChar
- *  - digest(int): ------- increases digestion level by an ammount and returns whether digestion is complete
- *  - absorb(int): ------- increases absorbtion level by an ammount and returns whether absorbtion is complete
- */
-struct Prey {
-	CChar* prey;
-	float digLevel = 0;
-	float abslevel = 0;
-	bool alive = true;
-	float size;
-	inline float digPercent() { return (digLevel / prey->size) * 100.0f; }
-	inline operator CChar&() { return *prey; }
-	Prey(CChar*);
-	bool digest(float);
-	bool absorb(float); 
-};
+// Global Variables
+float preyDeath = 25; // percent digestion at which a prey dies
 
 
 
@@ -68,7 +43,7 @@ struct Prey {
  *  - knownQuirks: ------ a vector of quirks that the character knows about (including the quirk's owner)
  *  - inventory: -------- a vector of strings describing various items in the character's posession
  *				 Attributes
- *  - boobs ------------- the character's boob size
+ *  - boobs ------------- the character's boob size     (Max - 54)
  *  - butt -------------- the character's butt size
  *  - fit --------------- the character's level of muscle mass
  *  - fat --------------- the amount of overall body fat the character has
@@ -80,7 +55,7 @@ struct Prey {
  *  - stomachCapacity --- how much food can fit in the character's stomach						(average = 1)
  *  - stomachFillLevel -- how much space is currently being taken up in the character's stomach (default = 0)
  *  - digestionRate ----- how quickly space in the character's stomach is freed up by digestion	(average = 1)
- *  - absorbtionRate ---- how quickly dissolved food is absorbed by the character's body		(average = 1)
+ *  - absorptionRate ---- how quickly dissolved food is absorbed by the character's body		(average = 1)
  *  - size -------------- how much space this character would take up in someone else's stomach	(average = 1)
  *  - stomach ----------- a list of the prey are currently in the character's stomach
  *  - isPrey ------------ is this character either currently in a stomach, or already digested
@@ -148,8 +123,8 @@ struct Prey {
  * 
  *  - swallow: --------- adds a prey to the character's stomach
  *  
- *  - churn: ----------- updates digestion and absorbtion levels of current prey by the given 
- *						 value, multiplied by the character's digestion and absorbtion rates, 
+ *  - churn: ----------- updates digestion and absorption levels of current prey by the given 
+ *						 value, multiplied by the character's digestion and absorption rates, 
  *						 and returns whether or not all prey have been fully absorbed by the 
  *						 process
  * 
@@ -182,9 +157,10 @@ class MPA_UNREAL_API CChar
 {
 	// Private Helper Functions
 	void processName(string);
+public:
 	void processKwargs(kwargs);
 
-public:
+
 	//*********************** DATA ***********************\\
 	// Naming
 	string name;
@@ -211,7 +187,7 @@ public:
 	float stomachCapacity = 1;
 	float stomachFillLevel = 0;
 	float digestionRate = 1;
-	float absorbtionRate = 1;
+	float absorptionRate = 1;
 	float size = 1;
 	Stomach stomach;
 	bool isPrey;
@@ -244,7 +220,7 @@ public:
 	void swallow(const CChar&);
 	bool churn(int);
 	bool livePrey();
-	inline operator Prey();
+	inline operator Prey() { return Prey(this); }
 	void empty();
 	bool release(string);
 

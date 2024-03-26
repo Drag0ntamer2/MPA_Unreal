@@ -21,17 +21,32 @@ bool CChar::knows(string fact)
 	}
 	return false;
 }
-Quirk CChar::quirk(string s = "")
+bool CChar::hasPrec(string prec) 
 {
-	if (s == "")
-		return quirks[0];
-	else {
-		for (Quirk q : quirks) {
-			if (q.name == s)
-				return q;
-		}
-		return Quirk();
+	for (string p : precedents) {
+		if (p == prec) return true;
 	}
+	return false;
+}
+bool CChar::setPrec(string prec)
+{
+	if (hasPrec(prec)) {
+		return true;
+	}
+	precedents.push_back(prec);
+	return false;
+}
+Quirk CChar::quirk()
+{
+	return quirks[0];
+}
+Quirk CChar::quirk(string s)
+{
+	for (Quirk q : quirks) {
+		if (q.name == s)
+			return q;
+	}
+	return Quirk();
 }
 void CChar::processName(string n)
 {
@@ -51,6 +66,41 @@ void CChar::processKwargs(kwargs body)
 		if (s.first == "fit") fit = s.second;
 		if (s.first == "fat") fat = s.second;
 	}
+}
+
+// Vore Functions
+bool CChar::release(string prey)
+{
+	for (int i = stomach.size(); 0 < i; --i)
+	{
+		if (prey == stomach[i] && stomach[i].alive) {
+			stomach[i].prey->isPrey = false;
+			stomach.erase(stomach.begin() + i);
+
+		}
+	}
+	return false;
+}
+bool CChar::churn(int time)
+{
+	if (stomach.empty()) return true;
+
+	float digestionAmount = time * digestionRate;
+	float absorptionAmount = time * absorptionRate;
+	float absorbedMass = 0;
+	for (Prey prey : stomach) {
+		if (!prey.liquified) {
+			stomachFillLevel -= digestionAmount;
+			prey.digest(digestionAmount);
+
+		}
+			
+
+	}
+
+
+
+	return false;
 }
 
 
@@ -114,13 +164,15 @@ void CChar::operator--()
 }
 
 
+
+
 // Standard Weight Gain Function Generators
 wg_func TopHeavy::wg(CChar& c, int scalar)
 {
 	return [&](int i) -> void {
 		kwargs vals;
 		vals["boobs"] = scalar * i;
-		c.bodyChange(vals);
+		c.processKwargs(vals);
 	};
 }
 wl_func TopHeavy::wl(CChar& c, int scalar)
@@ -128,7 +180,7 @@ wl_func TopHeavy::wl(CChar& c, int scalar)
 	return [&](int i) -> void {
 		kwargs vals;
 		vals["boobs"] = scalar * i * -1;
-		c.bodyChange(vals);
+		c.processKwargs(vals);
 	};
 }
 
@@ -139,7 +191,7 @@ wg_func Distributed::wg(CChar& c, int scalar)
 		vals["boobs"] = scalar * i;
 		vals["fat"] = scalar * i;
 		vals["butt"] = scalar * i;
-		c.bodyChange(vals);
+		c.processKwargs(vals);
 	};
 }
 wg_func Distributed::wl(CChar& c, int scalar)
@@ -149,7 +201,7 @@ wg_func Distributed::wl(CChar& c, int scalar)
 		vals["boobs"] = scalar * i * -1;
 		vals["fat"] = scalar * i * -1;
 		vals["butt"] = scalar * i * -1;
-		c.bodyChange(vals);
+		c.processKwargs(vals);
 	};
 }
 
@@ -158,7 +210,7 @@ wg_func BottomHeavy::wg(CChar& c, int scalar)
 	return [&](int i) -> void {
 		kwargs vals;
 		vals["butt"] = scalar * i;
-		c.bodyChange(vals);
+		c.processKwargs(vals);
 	};
 }
 wg_func BottomHeavy::wl(CChar& c, int scalar)
@@ -166,7 +218,7 @@ wg_func BottomHeavy::wl(CChar& c, int scalar)
 	return [&](int i) -> void {
 		kwargs vals;
 		vals["butt"] = scalar * i * -1;
-		c.bodyChange(vals);
+		c.processKwargs(vals);
 	};
 }
 
@@ -174,4 +226,25 @@ Prey::Prey(CChar* c)
 {
 	prey = c;
 	size = c->size;
+}
+
+bool Prey::digest(float& digAmt)
+{
+	digLevel += digAmt;
+
+	if (digPercent() >= preyDeath) alive = false;
+
+	if (digLevel > size) {
+		digAmt = digLevel - size;
+		digLevel = size;
+	}
+
+	if (digLevel == size) liquified = true; 
+
+	return liquified;
+}
+
+bool Prey::absorb(float&)
+{
+	return false;
 }

@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "xrEtNBX1WbXPvm4sWoJ3Bzp9YxcuWfKvliPsyP62eAuwg1b8Wvz3OOQRlWTbR/PMSD2p06b807fjj1fxkB5Fwg==",
-  "success": true,
+  "dgSpecHash": "e4NbEdKlRp1ejtq8CN5YzLF3Em9BNbVjrDIsbhe3VBajqhBXPMtKS4Iek8EQN1oYqDgYyd+vpc11NMXR/eDZdQ==",
+  "success": false,
   "projectFilePath": "C:\\Users\\Caleb Merroto\\Documents\\GitHub\\MPA_Unreal\\MPA_Unreal\\Intermediate\\Build\\BuildRulesProjects\\MPA_UnrealModuleRules\\MPA_UnrealModuleRules.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Caleb Merroto\\.nuget\\packages\\blake3\\0.5.1\\blake3.0.5.1.nupkg.sha512",
@@ -141,5 +141,15 @@
     "C:\\Users\\Caleb Merroto\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Caleb Merroto\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Program Files\\Epic Games\\UE_5.3\\Engine\\Intermediate\\Build\\BuildRulesProjects\\MarketplaceRules\\MarketplaceRules.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

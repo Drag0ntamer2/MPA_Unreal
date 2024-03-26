@@ -45,6 +45,12 @@
     <ClInclude Include="..\..\Source\MPA_Unreal\MPA_Unreal.h">
       <Filter>Source\MPA_Unreal</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\MPA_Unreal\Prey.cpp">
+      <Filter>Source\MPA_Unreal</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\MPA_Unreal\Prey.h">
+      <Filter>Source\MPA_Unreal</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\MPA_Unreal\Quirk.cpp">
       <Filter>Source\MPA_Unreal</Filter>
     </ClCompile>

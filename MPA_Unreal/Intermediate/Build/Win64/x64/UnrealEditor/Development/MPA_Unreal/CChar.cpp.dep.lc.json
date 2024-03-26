@@ -6,7 +6,12 @@
         "PCH": "c:\\users\\caleb merroto\\documents\\github\\mpa_unreal\\mpa_unreal\\intermediate\\build\\win64\\x64\\mpa_unrealeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
         "Includes": [
             "c:\\users\\caleb merroto\\documents\\github\\mpa_unreal\\mpa_unreal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mpa_unreal\\definitions.mpa_unreal.h",
-            "c:\\users\\caleb merroto\\documents\\github\\mpa_unreal\\mpa_unreal\\source\\mpa_unreal\\cchar.h"
+            "c:\\users\\caleb merroto\\documents\\github\\mpa_unreal\\mpa_unreal\\source\\mpa_unreal\\cchar.h",
+            "c:\\users\\caleb merroto\\documents\\github\\mpa_unreal\\mpa_unreal\\source\\mpa_unreal\\quirk.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\map",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\xtree",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\functional",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.35.32215\\include\\unordered_map"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
