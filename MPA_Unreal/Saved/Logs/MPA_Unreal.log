@@ -1814,3 +1814,31 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.28-01.05.02:780][393]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprint_Classes/Relationship.Relationship
 [2024.03.28-01.05.02:780][393]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Prey.Prey
 [2024.03.28-01.05.02:780][393]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-01.06.07:345][432]LogDialogs: Warning: Suppressed: Variable body is in use! Do you really want to delete it?
+[2024.03.28-01.07.42:969][626]LogUObjectHash: Compacting FUObjectHashTables data took   1.81ms
+[2024.03.28-01.07.42:974][626]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.029
+[2024.03.28-01.07.42:975][626]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.28-01.07.42:975][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.28-01.07.43:009][626]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto7
+[2024.03.28-01.07.43:009][626]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto72196B23044932FD7EADDE389B07E9680.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto7.uasset'
+[2024.03.28-01.07.43:010][626]LogFileHelpers: Auto-saving content packages took 0.036
+[2024.03.28-01.18.29:842][457]LogEditorTransaction: Undo Create Pin Link
+[2024.03.28-01.19.00:235][134]LogEditorTransaction: Undo Create Pin Link
+[2024.03.28-01.19.05:417][404]LogEditorTransaction: Undo Create Pin Link
+[2024.03.28-01.26.57:108][728]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.03.28-01.26.57:114][728]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.037
+[2024.03.28-01.26.57:114][728]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.28-01.26.57:114][728]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.28-01.26.57:164][728]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto8
+[2024.03.28-01.26.57:164][728]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto80C5CB4934959B0ECCC4113ABB1FE6782.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto8.uasset'
+[2024.03.28-01.26.57:166][728]LogFileHelpers: Auto-saving content packages took 0.052
+[2024.03.28-01.27.22:446][ 38]Cmd: SELECT NONE
+[2024.03.28-01.29.02:113][437]BlueprintLog: New page: Compile CChar
+[2024.03.28-01.29.02:210][437]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.03.28-01.29.02:338][437]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-01.29.02:423][437]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-01.29.02:464][437]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-01.29.02:465][437]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharF3C2D21541A539B9F1F3A9986A84D324.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-01.29.02:479][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 2.32 sec)
+[2024.03.28-01.29.02:484][437]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-01.29.02:484][437]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
