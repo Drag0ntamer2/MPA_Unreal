@@ -10,17 +10,20 @@
 
 class Prey;
 
-using Mind = std::vector<string>;
 using std::map;
 using std::pair;
+using std::string;
+using std::vector;
 using std::function;
+using std::getline;
+using std::istringstream;
+using Mind = std::vector<string>;
 using wg_func = function<void(int)>;
 using wl_func = function<void(int)>;
 using ex_func = function<void(int)>;
-using std::istringstream;
-using std::getline;
 using Body = map<string, float>;
 using Body = map<string, float>;
+using Quirk = UQuirk;
 using Quirks = vector<Quirk>;
 using Stomach = vector<Prey>;
 using BdPart = std::pair<string, float>;

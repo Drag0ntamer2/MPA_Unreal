@@ -5,6 +5,10 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/StarterContent/Architecture/Floor_400x400.uasset",
+				"C:/Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Quirk_functions/CChar.uasset",
+				"C:/Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Quirk_functions/Prey.uasset",
+				"C:/Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Quirk_functions/Relationship.uasset",
 				"F:/github/MPA_Unreal/MPA_Unreal/Content/VisualNovelSystem/VisNovChar.uasset",
 				"F:/github/MPA_Unreal/MPA_Unreal/Content/VisualNovelSystem/VisNovGameMode.uasset",
 				"F:/github/MPA_Unreal/MPA_Unreal/Content/VisualNovelSystem/VisNovMap_HLOD0_Instancing.uasset",
@@ -94,8 +98,7 @@
 				"F:/github/MPA_Unreal/MPA_Unreal/Content/VisualNovelSystem/Main_UI.uasset",
 				"F:/github/MPA_Unreal/MPA_Unreal/Content/VisualNovelSystem/DialogueSystem/Main_UI.uasset",
 				"F:/github/MPA_Unreal/MPA_Unreal/Content/VisualNovelSystem/DialogueSystem/TestTrees/TestFunct.uasset",
-				"F:/github/MPA_Unreal/MPA_Unreal/Content/VisualNovelSystem/Character.uasset",
-				"C:/Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/StarterContent/Architecture/Floor_400x400.uasset"
+				"F:/github/MPA_Unreal/MPA_Unreal/Content/VisualNovelSystem/Character.uasset"
 			]
 		}
 	]

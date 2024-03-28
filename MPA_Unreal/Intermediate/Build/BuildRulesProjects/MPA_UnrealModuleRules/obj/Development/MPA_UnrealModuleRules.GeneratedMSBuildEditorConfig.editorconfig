@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MPA_UnrealModuleRules
-build_property.ProjectDir = F:\github\MPA_Unreal\MPA_Unreal\Intermediate\Build\BuildRulesProjects\MPA_UnrealModuleRules\
+build_property.ProjectDir = C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Intermediate\Build\BuildRulesProjects\MPA_UnrealModuleRules\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

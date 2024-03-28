@@ -3,10 +3,3 @@
 
 #include "Quirk.h"
 
-Quirk::Quirk()
-{
-}
-
-Quirk::~Quirk()
-{
-}

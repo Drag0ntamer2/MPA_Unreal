@@ -1,34 +1,28 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+// Quirk.h
 
 #pragma once
 
 #include "CoreMinimal.h"
-#include <string>
-#include <vector>
-#include <sstream>
-
-using std::string;
-using std::vector;
-using std::istringstream;
-using std::ostringstream;
+#include "UObject/ObjectMacros.h"
+#include "UObject/Object.h"
+#include "Quirk.generated.h"
 
 
-/**
- * 
- */
-class MPA_UNREAL_API Quirk
+UCLASS(Blueprintable, BlueprintType)
+class MPA_UNREAL_API UQuirk : public UObject
 {
-	int stren; 
-	int spd;
-	
+    GENERATED_BODY()
+
 public:
-	string name;
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Quirk")
+    FString Name;
 
-	Quirk(string n, int spdMultiplier, int strenMultiplier): name(n), spd(spdMultiplier), stren(strenMultiplier) {}
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Quirk")
+    FString Category;
 
+    UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = "Quirk")
+    FString Section;
 
+    UQuirk();
 
-	Quirk() = default;
-	~Quirk() = default;
 };
-
