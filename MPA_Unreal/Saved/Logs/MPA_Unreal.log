@@ -1746,3 +1746,71 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.28-00.57.42:602][585]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Quirk_functions/CChar_Auto6
 [2024.03.28-00.57.42:603][585]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto6F3049F06484A00AD82A3CD969C5B1665.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Quirk_functions/CChar_Auto6.uasset'
 [2024.03.28-00.57.42:605][585]LogFileHelpers: Auto-saving content packages took 0.062
+[2024.03.28-01.05.01:681][393]LogMetaData: Removing '/Game/Blueprint_Classes/Relationship.Relationship' ref from Metadata '/Game/Quirk_functions/Relationship.PackageMetaData'
+[2024.03.28-01.05.01:739][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.SKEL_Prey_C' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:739][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.Prey_C' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:739][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.Prey:digPercent.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:739][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.Prey:digPercent.K2Node_FunctionResult_0' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:739][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.Prey:digest.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:739][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.Prey:absorb.K2Node_FunctionResult_1' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:739][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.Prey:absorb.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:739][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.Prey_C:absorb' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:739][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.Prey_C:digest' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:739][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.SKEL_Prey_C:absorb' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:740][393]LogMetaData: Removing '/Game/Blueprint_Classes/Prey.SKEL_Prey_C:digest' ref from Metadata '/Game/Quirk_functions/Prey.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar_C' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:learn.K2Node_FunctionResult_1' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:any prey still alive.K2Node_FunctionResult_1' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:contains.K2Node_FunctionResult_1' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:contains.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:learn.K2Node_FunctionResult_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:learn.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:has.K2Node_FunctionResult_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:any prey still alive.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:has.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:swallow.K2Node_FunctionResult_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:knows.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:knows.K2Node_FunctionResult_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:swallow.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:digest.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:digest.K2Node_FunctionResult_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar_C:any prey still alive' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:764][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:churn.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar_C:churn' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar_C:absorb' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar_C:digest' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar_C:swallow' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar_C:has' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar_C:contains' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar_C:learn' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar_C:knows' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:weight gain.K2Node_FunctionEntry_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C:weight gain' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C:any prey still alive' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C:churn' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C:absorb' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C:digest' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C:swallow' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C:has' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C:contains' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C:learn' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.SKEL_CChar_C:knows' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:765][393]LogMetaData: Removing '/Game/Blueprint_Classes/CChar.CChar:churn.K2Node_FunctionResult_0' ref from Metadata '/Game/Quirk_functions/CChar.PackageMetaData'
+[2024.03.28-01.05.01:787][393]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-01.05.01:893][393]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Relationship
+[2024.03.28-01.05.01:893][393]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Relationship8B9F2D934E2EFAF48F7D519F57994F5E.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Relationship.uasset'
+[2024.03.28-01.05.01:917][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/Prey" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Prey.uasset" SILENT=true
+[2024.03.28-01.05.01:945][393]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Prey
+[2024.03.28-01.05.01:945][393]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Prey79F8575148ABC797ABE44292A41E01B3.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Prey.uasset'
+[2024.03.28-01.05.01:998][393]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-01.05.02:052][393]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-01.05.02:052][393]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar92F0792348699A528438219AF4D077E8.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-01.05.02:077][393]LogFileHelpers: InternalPromptForCheckoutAndSave took 289 ms (total: 2.18 sec)
+[2024.03.28-01.05.02:689][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2024.03.28-01.05.02:722][393]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.28-01.05.02:741][393]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.03.28-01.05.02:780][393]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.28-01.05.02:780][393]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprint_Classes/Relationship.Relationship
+[2024.03.28-01.05.02:780][393]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Prey.Prey
+[2024.03.28-01.05.02:780][393]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
