@@ -2021,3 +2021,312 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.28-02.37.29:649][250]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 4.00 sec)
 [2024.03.28-02.37.29:663][250]AssetCheck: New page: Asset Save: Quirk_All-In-One
 [2024.03.28-02.37.29:664][250]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One
+[2024.03.28-03.23.24:335][ 25]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VisualNovelSystem/VisNovChar.VisNovChar
+[2024.03.28-03.23.24:372][ 25]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-03.23.24:384][ 25]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-03.23.32:807][392]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-03.23.32:812][392]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-03.24.58:737][ 97]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VisualNovelSystem/CharacterCore/Char.Char
+[2024.03.28-03.24.58:738][ 97]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-03.24.58:738][ 97]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-03.25.34:771][144]LogViewport: Scene viewport resized to 1139x873, mode Windowed.
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: ================================================
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Total job queries 2, among them cache hits 0 (0.00%)
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Tracking 2 distinct input hashes that result in 2 distinct outputs (100.00%)
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: RAM used: 71.36 KiB of 819.20 MiB budget. Usage: 0.01%
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Shaders Compiled: 2
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Jobs assigned 2, completed 2 (100%)
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Time job spent in pending queue: average 0.01 s, longest 0.01 s
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Job execution time: average 2.89 s, max 2.89 s
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Job life time (pending + execution): average 2.90 s, max 2.90
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Shader code size: average 68.904 KiB, min 66.426 KiB, max 71.383 KiB
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 2.90 s
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Jobs were issued in 2 batches (only local compilation was used), average 1.00 jobs/batch
+[2024.03.28-03.25.37:808][299]LogShaderCompilers: Display: Average processing rate: 0.69 jobs/sec
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display: Total thread time: 2.32 s
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display: Total thread preprocess time: 1.552 s
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display: Percentage time preprocessing: 66.87%
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display: Effective parallelization: 0.80 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display: Top 2 most expensive shader types by average time:
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    1 times, average 1.20 sec, max 1.20 sec, min 1.20 sec)
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display: Top 2 shader types by total compile time:
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 51.60% of total time (compiled    1 times, average 1.20 sec, max 1.20 sec, min 1.20 sec)
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 48.40% of total time (compiled    1 times, average 1.12 sec, max 1.12 sec, min 1.12 sec)
+[2024.03.28-03.25.37:809][299]LogShaderCompilers: Display: ================================================
+[2024.03.28-03.25.42:594][566]LogEditorTransaction: Undo Refresh Node(s)
+[2024.03.28-03.25.44:669][667]LogEditorTransaction: Undo Refresh Node(s)
+[2024.03.28-03.25.57:916][427]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-03.25.57:916][427]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-03.26.40:143][897]LogUObjectHash: Compacting FUObjectHashTables data took   6.96ms
+[2024.03.28-03.26.40:149][897]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.110
+[2024.03.28-03.26.40:150][897]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Quirk_All-In-One] ([2] browsable assets)...
+[2024.03.28-03.26.40:150][897]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Quirk_All-In-One]
+[2024.03.28-03.26.40:163][897]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Quirk_All-In-One_Auto3
+[2024.03.28-03.26.40:163][897]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-One_Auto30EB1A5904858C0539C4B2EB109E432F8.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Quirk_All-In-One_Auto3.uasset'
+[2024.03.28-03.26.40:165][897]LogFileHelpers: Auto-saving content packages took 0.016
+[2024.03.28-03.30.04:396][581]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.03.28-03.30.04:423][581]LogContentBundle: [VisNovMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.03.28-03.30.04:423][581]LogWorldPartition: Display: GenerateStreaming for 'VisNovMap' started...
+[2024.03.28-03.30.04:980][581]LogWorldPartition: Display: GenerateStreaming for 'VisNovMap' took 556 ms
+[2024.03.28-03.30.05:010][581]BlueprintLog: New page: Pre-Play auto-recompile
+[2024.03.28-03.30.05:020][581]LogPlayLevel: [PlayLevel] Compiling CChar before play...
+[2024.03.28-03.30.05:140][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-03.30.05:230][581]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-03.30.05:288][581]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-03.30.05:290][581]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharCA73C53347A8BD9719A0278C204C8839.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-03.30.05:307][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 4.16 sec)
+[2024.03.28-03.30.05:308][581]LogPlayLevel: [PlayLevel] Compiling Quirk_All-In-One before play...
+[2024.03.28-03.30.05:338][581]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-03.30.05:457][581]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirk_All-In-One
+[2024.03.28-03.30.05:459][581]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-One92366A174E7CA402A7DF9FB92A9C2E43.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk_All-In-One.uasset'
+[2024.03.28-03.30.05:475][581]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms (total: 4.30 sec)
+[2024.03.28-03.30.05:495][581]LogPlayLevel: [PlayLevel] Compiling PROTO_BP_AnimBlueprint_0 before play...
+[2024.03.28-03.30.05:550][581]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.03.28-03.30.05:554][581]LogPlayLevel: PlayLevel: Blueprint regeneration took 544 ms (3 blueprints)
+[2024.03.28-03.30.05:558][581]PIE: New page: PIE session: VisNovMap (Mar 27, 2024, 5:30:05 PM)
+[2024.03.28-03.30.05:565][581]LogPlayLevel: Display: Creating online subsystem for client :Context_14
+[2024.03.28-03.30.05:577][581]LogOnline: OSS: Created online subsystem instance for: :Context_14
+[2024.03.28-03.30.05:703][582]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.28-03.30.05:703][582]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-03.30.05:703][582]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One
+[2024.03.28-03.30.05:705][582]LogPlayLevel: Creating play world package: /Game/VisualNovelSystem/UEDPIE_0_VisNovMap
+[2024.03.28-03.30.05:738][582]LogPlayLevel: PIE: StaticDuplicateObject took: (0.031312s)
+[2024.03.28-03.30.05:738][582]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VisualNovelSystem/VisNovMap.VisNovMap to /Game/VisualNovelSystem/UEDPIE_0_VisNovMap.VisNovMap (0.032941s)
+[2024.03.28-03.30.05:763][582]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.03.28-03.30.05:771][582]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-03.30.05:776][582]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-03.30.05:780][582]LogAIModule: Creating AISystem for world VisNovMap
+[2024.03.28-03.30.05:789][582]LogWorldPartition: ULevel::OnLevelLoaded(VisNovMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.03.28-03.30.05:789][582]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.03.28-03.30.05:789][582]LogWorldPartition: UWorldPartition::Initialize : World = VisNovMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.03.28-03.30.05:790][582]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.03.28-03.30.05:793][582]LogContentBundle: [VisNovMap(Standalone)] Creating new contrainer.
+[2024.03.28-03.30.05:797][582]LogWorldPartition: Display: WorldPartition initialize took 7 ms (total: 37 ms)
+[2024.03.28-03.30.05:797][582]LogPlayLevel: PIE: World Init took: (0.028123s)
+[2024.03.28-03.30.05:800][582]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2024.03.28-03.30.05:803][582]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.03.28-03.30.05:803][582]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.03.28-03.30.05:803][582]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.03.28-03.30.05:804][582]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.03.28-03.30.05:804][582]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.03.28-03.30.05:804][582]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.03.28-03.30.05:804][582]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.03.28-03.30.05:804][582]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.03.28-03.30.05:808][582]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.03.28-03.30.05:808][582]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.03.28-03.30.05:808][582]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.03.28-03.30.05:815][582]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.03.28-03.30.05:952][582]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.03.28-03.30.05:956][582]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.03.28-03.30.05:957][582]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.03.28-03.30.05:957][582]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.03.28-03.30.05:964][582]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=2
+[2024.03.28-03.30.05:964][582]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=2
+[2024.03.28-03.30.05:967][582]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=2
+[2024.03.28-03.30.05:967][582]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=2
+[2024.03.28-03.30.05:967][582]LogInit: FAudioDevice initialized with ID 2.
+[2024.03.28-03.30.05:968][582]LogAudio: Display: Audio Device (ID: 2) registered with world 'VisNovMap'.
+[2024.03.28-03.30.05:968][582]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.28-03.30.06:000][582]LogLoad: Game class is 'VisNovGameMode_C'
+[2024.03.28-03.30.06:008][582]LogWorld: Bringing World /Game/VisualNovelSystem/UEDPIE_0_VisNovMap.VisNovMap up for play (max tick rate 60) at 2024.03.27-22.30.06
+[2024.03.28-03.30.06:010][582]LogWorld: Bringing up level for play took: 0.009294
+[2024.03.28-03.30.06:078][582]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(1), CellsToLoad(0), CellsToUnload(0)
+[2024.03.28-03.30.06:078][582]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2024.03.28-03.30.06:083][582]LogStreaming: Display: FlushAsyncLoading(): 2 QueuedPackages, 0 AsyncPackages
+[2024.03.28-03.30.06:118][582]LogScript: Warning: Script Msg: The widget 'CharacterLoader_C_0' was already added to the screen.
+[2024.03.28-03.30.06:118][582]LogScript: Warning: Script Msg called by: VisNovChar_C /Game/VisualNovelSystem/UEDPIE_0_VisNovMap.VisNovMap:PersistentLevel.VisNovChar_C_0
+[2024.03.28-03.30.06:150][582]PIE: Server logged in
+[2024.03.28-03.30.06:152][582]PIE: Play in editor total start time 1.731 seconds.
+[2024.03.28-03.30.07:299][584]LogSlate: Took 0.006907 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2024.03.28-03.30.07:846][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.28-03.30.07:847][611]LogWorld: BeginTearingDown for /Game/VisualNovelSystem/UEDPIE_0_VisNovMap
+[2024.03.28-03.30.07:849][611]LogWorld: UWorld::CleanupWorld for VisNovMap, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-03.30.07:850][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-03.30.07:851][611]LogContentBundle: [VisNovMap(Standalone)] Deleting container.
+[2024.03.28-03.30.07:860][611]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.03.28-03.30.07:866][611]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-03.30.07:895][611]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.03.28-03.30.07:896][611]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 2
+[2024.03.28-03.30.07:897][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.28-03.30.07:900][611]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=2
+[2024.03.28-03.30.07:928][611]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.28-03.30.07:971][612]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2024.03.28-03.30.49:604][940]BlueprintLog: New page: Compile CChar
+[2024.03.28-03.30.49:661][940]LogUObjectHash: Compacting FUObjectHashTables data took   2.27ms
+[2024.03.28-03.30.49:707][940]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-03.30.49:793][940]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-03.30.49:843][940]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-03.30.49:845][940]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar2B6E6B3440D1F05298E15C97C3D0696D.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-03.30.49:861][940]LogFileHelpers: InternalPromptForCheckoutAndSave took 154 ms (total: 4.45 sec)
+[2024.03.28-03.30.49:864][940]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-03.30.49:864][940]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-03.32.19:139][908]BlueprintLog: New page: Compile CChar
+[2024.03.28-03.32.19:194][908]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.03.28-03.32.19:236][908]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-03.32.19:335][908]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-03.32.19:391][908]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-03.32.19:393][908]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharE5A78542405C9F484AF6AABA8A6D72EC.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-03.32.19:412][908]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 4.63 sec)
+[2024.03.28-03.32.19:416][908]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-03.32.19:416][908]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-03.33.14:750][ 13]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.328 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 644 files in 1106 folders with total size 5 MiB.
+[2024.03.28-03.44.53:674][593]BlueprintLog: New page: Compile CChar
+[2024.03.28-03.44.53:891][593]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2024.03.28-03.44.54:003][593]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-03.44.54:106][593]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-03.44.54:186][593]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-03.44.54:188][593]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar5F9B25EE4459EA62322D619FE6F70A1E.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-03.44.54:210][593]LogFileHelpers: InternalPromptForCheckoutAndSave took 207 ms (total: 4.83 sec)
+[2024.03.28-03.44.54:223][593]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-03.44.54:223][593]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-03.45.10:963][526]BlueprintLog: New page: Compile CChar
+[2024.03.28-03.45.11:018][526]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2024.03.28-03.45.11:083][526]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-03.45.11:189][526]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-03.45.11:262][526]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-03.45.11:265][526]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar01F18A5548EB40BB9BB441AB6B0F66BC.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-03.45.11:282][526]LogFileHelpers: InternalPromptForCheckoutAndSave took 199 ms (total: 5.03 sec)
+[2024.03.28-03.45.11:291][526]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-03.45.11:291][526]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-03.48.25:535][310]BlueprintLog: New page: Compile Quirk_All-In-One
+[2024.03.28-03.48.25:571][310]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Quirk_All-In-One.uasset: [Compiler] Can't connect pins  Prey  and  Target : Prey Object Reference is not compatible with CChar Object Reference.
+[2024.03.28-03.48.25:572][310]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Quirk_All-In-One.uasset: [Compiler] Can't connect pins  Target  and  Prey : CChar Object Reference is not compatible with Prey Object Reference.
+[2024.03.28-03.48.25:646][310]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2024.03.28-03.48.25:670][310]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-03.48.25:754][310]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-03.48.25:806][310]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-03.48.25:808][310]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar36D8EA7D4830E5E7F2B6A7BC8BB9BC4B.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-03.48.25:825][310]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirk_All-In-One
+[2024.03.28-03.48.25:827][310]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-One6AB65224446C104C615BC3A2ED4E6EE0.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk_All-In-One.uasset'
+[2024.03.28-03.48.25:841][310]LogFileHelpers: InternalPromptForCheckoutAndSave took 171 ms (total: 5.21 sec)
+[2024.03.28-03.48.25:854][310]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.28-03.48.25:854][310]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-03.48.25:854][310]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One
+[2024.03.28-03.49.02:334][358]BlueprintLog: New page: Compile Quirk_All-In-One
+[2024.03.28-03.49.02:411][358]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2024.03.28-03.49.02:445][358]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-03.49.02:548][358]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirk_All-In-One
+[2024.03.28-03.49.02:549][358]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-One47F4A7464D1D860C573320A79E9BDC57.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk_All-In-One.uasset'
+[2024.03.28-03.49.02:564][358]LogFileHelpers: InternalPromptForCheckoutAndSave took 118 ms (total: 5.32 sec)
+[2024.03.28-03.49.02:574][358]AssetCheck: New page: Asset Save: Quirk_All-In-One
+[2024.03.28-03.49.02:574][358]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One
+[2024.03.28-03.50.31:617][323]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-03.50.31:721][323]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-03.50.31:775][323]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-03.50.31:777][323]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharEB4E37804D1F5E546199408CD8765A85.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-03.50.31:792][323]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 5.50 sec)
+[2024.03.28-03.50.31:796][323]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-03.50.31:796][323]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-04.00.03:614][686]LogEditorTransaction: Undo Create Pin Link
+[2024.03.28-04.00.12:822][173]LogEditorTransaction: Undo Create Pin Link
+[2024.03.28-04.00.14:432][244]LogEditorTransaction: Undo Create Pin Link
+[2024.03.28-04.00.55:735][460]LogSlate: Window 'Delete Function' being destroyed
+[2024.03.28-04.10.59:472][803]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2024.03.28-04.10.59:479][803]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.077
+[2024.03.28-04.10.59:480][803]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.28-04.10.59:481][803]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.28-04.10.59:536][803]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto4
+[2024.03.28-04.10.59:537][803]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto40AE1F47746214A3BDACE1E946A210D5A.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto4.uasset'
+[2024.03.28-04.10.59:539][803]LogFileHelpers: Auto-saving content packages took 0.060
+[2024.03.28-04.12.00:502][309]BlueprintLog: New page: Compile CChar
+[2024.03.28-04.12.00:606][309]LogUObjectHash: Compacting FUObjectHashTables data took   2.00ms
+[2024.03.28-04.12.00:666][309]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-04.12.00:774][309]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-04.12.00:836][309]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-04.12.00:837][309]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharF02BE3E24202F555226D17A59EDEF182.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-04.12.00:857][309]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 5.69 sec)
+[2024.03.28-04.12.00:870][309]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-04.12.00:870][309]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-04.12.46:537][715]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-04.12.46:625][715]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-04.12.46:678][715]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-04.12.46:680][715]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar50AF3CF742D688803EFBE78A483167FF.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-04.12.46:699][715]LogFileHelpers: InternalPromptForCheckoutAndSave took 162 ms (total: 5.85 sec)
+[2024.03.28-04.12.46:703][715]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-04.12.46:703][715]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-04.15.20:148][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-04.15.20:244][ 97]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-04.15.20:307][ 97]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-04.15.20:311][ 97]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar1F8391AB4AF57DD0C72214BEE4C8AB65.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-04.15.20:327][ 97]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 6.03 sec)
+[2024.03.28-04.15.20:331][ 97]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-04.15.20:331][ 97]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-04.18.43:152][237]LogSlate: Vector cache flush requested. Reason: Large atlases out of space; 2/1 Textures; frames since last flush: 12013228822055259491
+[2024.03.28-04.18.43:152][237]LogSlate: Warning: Setting the threshold to trigger a flush to 2 non-atlased textures as there is a lot of font data being cached.
+[2024.03.28-04.19.20:541][283]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::EqualEqual_NameName' [The specified module could not be found.]
+[2024.03.28-04.19.21:422][312]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::EqualEqual_NameName' [The specified module could not be found.]
+[2024.03.28-04.23.26:617][672]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::EqualEqual_NameName' [The specified module could not be found.]
+[2024.03.28-04.23.31:179][886]LogSelectionDetails: Warning: NavigateToFunctionSource:  Unable to find source file and line number for 'UKismetMathLibrary::EqualEqual_NameName' [The specified module could not be found.]
+[2024.03.28-04.25.35:392][832]BlueprintLog: New page: Compile CChar
+[2024.03.28-04.25.35:487][832]LogUObjectHash: Compacting FUObjectHashTables data took   3.81ms
+[2024.03.28-04.25.35:541][832]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-04.25.35:637][832]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-04.25.35:698][832]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-04.25.35:699][832]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar4E0A9CD44EA46A65677911B5600DE22F.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-04.25.35:717][832]LogFileHelpers: InternalPromptForCheckoutAndSave took 175 ms (total: 6.21 sec)
+[2024.03.28-04.25.35:720][832]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-04.25.35:720][832]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-04.28.17:164][692]LogUObjectHash: Compacting FUObjectHashTables data took   3.80ms
+[2024.03.28-04.28.17:171][692]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.031
+[2024.03.28-04.28.17:172][692]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.28-04.28.17:172][692]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.28-04.28.17:226][692]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto5
+[2024.03.28-04.28.17:226][692]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto5CF4A08314300312551D486B5A167B2FA.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto5.uasset'
+[2024.03.28-04.28.17:228][692]LogFileHelpers: Auto-saving content packages took 0.057
+[2024.03.28-04.32.59:163][ 53]BlueprintLog: New page: Compile CChar
+[2024.03.28-04.32.59:283][ 53]LogUObjectHash: Compacting FUObjectHashTables data took   4.48ms
+[2024.03.28-04.32.59:345][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-04.32.59:474][ 53]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-04.32.59:561][ 53]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-04.32.59:562][ 53]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar42C52B14483E9F4E44A68F969E151F1B.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-04.32.59:581][ 53]LogFileHelpers: InternalPromptForCheckoutAndSave took 236 ms (total: 6.44 sec)
+[2024.03.28-04.32.59:586][ 53]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-04.32.59:586][ 53]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-04.33.15:546][445]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.123 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 644 files in 1106 folders with total size 5 MiB.
+[2024.03.28-05.33.14:644][664]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.215 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 644 files in 1106 folders with total size 5 MiB.
+[2024.03.28-06.00.26:657][553]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.03.28-06.00.26:740][554]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=47164
+[2024.03.28-06.00.27:777][556]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{cf6452f2-0e90-4980-be03-29ce4840e1eb}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=816.71
+[2024.03.28-06.00.27:782][556]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.03.28-06.00.27:797][556]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.03.28-06.00.35:558][567]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.03.28-13.28.21:137][567]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=47164
+[2024.03.28-13.28.25:405][576]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{cf6452f2-0e90-4980-be03-29ce4840e1eb}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=3649.37
+[2024.03.28-13.28.25:406][576]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.03.28-13.28.25:553][576]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.03.28-13.34.06:853][ 28]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/VisualNovelSystem/CharacterCore/Char.Char
+[2024.03.28-13.34.07:161][ 28]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-13.34.07:198][ 28]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-13.35.40:207][835]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.03.28-13.35.41:659][858]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-13.35.42:057][858]LogSavePackage: Moving output files for package: /Game/VisualNovelSystem/CharacterCore/Char
+[2024.03.28-13.35.42:061][858]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CharB0FA94A84B37C81922ABE19FEA10298E.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/VisualNovelSystem/CharacterCore/Char.uasset'
+[2024.03.28-13.35.42:161][858]LogFileHelpers: InternalPromptForCheckoutAndSave took 502 ms (total: 6.95 sec)
+[2024.03.28-13.35.42:184][858]AssetCheck: New page: Asset Save: Char
+[2024.03.28-13.35.42:184][858]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/VisualNovelSystem/CharacterCore/Char.Char
+[2024.03.28-13.38.29:791][985]LogContentBrowser: Deferred new asset file creation: Quirk_Child
+[2024.03.28-13.38.29:838][985]LogContentBrowser: Creating deferred item: Quirk_Child
+[2024.03.28-13.38.29:891][986]LogContentBrowser: Renaming the item being created (Deferred Item: Quirk_Child).
+[2024.03.28-13.38.42:914][359]LogContentBrowser: Attempting asset rename: Quirk_Child -> Quirk_Prey_Storage
+[2024.03.28-13.38.43:122][359]LogContentBrowser: End creating deferred item Quirk_Child
+[2024.03.28-13.38.47:595][489]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint_Classes/Quirk_Prey_Storage.Quirk_Prey_Storage
+[2024.03.28-13.38.47:597][489]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-13.38.47:597][489]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-13.40.09:383][550]LogUObjectHash: Compacting FUObjectHashTables data took  14.76ms
+[2024.03.28-13.40.09:406][550]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.142
+[2024.03.28-13.40.09:411][550]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.28-13.40.09:412][550]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.28-13.40.09:520][550]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto6
+[2024.03.28-13.40.09:520][550]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto64308C25642385E0853816385CBA9DB68.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto6.uasset'
+[2024.03.28-13.40.09:523][550]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VisualNovelSystem/CharacterCore/Char] ([2] browsable assets)...
+[2024.03.28-13.40.09:523][550]OBJ SavePackage: Finished generating thumbnails for package [/Game/VisualNovelSystem/CharacterCore/Char]
+[2024.03.28-13.40.09:532][550]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VisualNovelSystem/CharacterCore/Char_Auto6
+[2024.03.28-13.40.09:532][550]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Char_Auto6C7EBE27B4815F202FD825F81D68C2C0F.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/VisualNovelSystem/CharacterCore/Char_Auto6.uasset'
+[2024.03.28-13.40.09:539][550]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Quirk_Prey_Storage] ([2] browsable assets)...
+[2024.03.28-13.40.09:540][550]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Quirk_Prey_Storage]
+[2024.03.28-13.40.09:550][550]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Quirk_Prey_Storage_Auto6
+[2024.03.28-13.40.09:550][550]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_Prey_Storage_Auto6268D28A34273185329EE3EA1E538C8D1.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Quirk_Prey_Storage_Auto6.uasset'
+[2024.03.28-13.40.09:554][550]LogFileHelpers: Auto-saving content packages took 0.146
