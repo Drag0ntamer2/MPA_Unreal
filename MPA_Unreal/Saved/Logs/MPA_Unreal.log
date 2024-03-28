@@ -1899,3 +1899,125 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.28-01.47.33:520][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
 [2024.03.28-01.47.33:548][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
 [2024.03.28-01.47.33:586][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2024.03.28-01.49.42:783][452]LogContentBrowser: Deferred new asset file creation: Quirk_Child
+[2024.03.28-01.49.42:806][452]LogContentBrowser: Creating deferred item: Quirk_Child
+[2024.03.28-01.49.42:818][453]LogContentBrowser: Renaming the item being created (Deferred Item: Quirk_Child).
+[2024.03.28-01.49.58:117][371]LogContentBrowser: Attempting asset rename: Quirk_Child -> Quirk_All-In-One
+[2024.03.28-01.49.58:127][371]LogContentBrowser: End creating deferred item Quirk_Child
+[2024.03.28-01.50.00:932][537]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One
+[2024.03.28-01.50.00:933][537]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-01.50.00:933][537]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-01.50.32:458][368]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint_Classes/Quirk.Quirk
+[2024.03.28-01.50.32:459][368]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-01.50.32:460][368]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-01.54.01:219][505]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2024.03.28-01.54.01:223][505]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.037
+[2024.03.28-01.54.01:223][505]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Quirk] ([2] browsable assets)...
+[2024.03.28-01.54.01:223][505]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Quirk]
+[2024.03.28-01.54.01:228][505]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Quirk_Auto0
+[2024.03.28-01.54.01:230][505]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_Auto05A362064408B1DA997E34A89A693528B.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Quirk_Auto0.uasset'
+[2024.03.28-01.54.01:231][505]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Quirk_All-In-One] ([2] browsable assets)...
+[2024.03.28-01.54.01:231][505]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Quirk_All-In-One]
+[2024.03.28-01.54.01:239][505]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Quirk_All-In-One_Auto0
+[2024.03.28-01.54.01:240][505]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-One_Auto0DF80203543C5F36987740C8E8A492EEB.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Quirk_All-In-One_Auto0.uasset'
+[2024.03.28-01.54.01:240][505]LogFileHelpers: Auto-saving content packages took 0.017
+[2024.03.28-02.11.25:651][653]LogEditorTransaction: Undo Delete current selection
+[2024.03.28-02.11.26:034][661]LogEditorTransaction: Undo Move Node
+[2024.03.28-02.15.42:937][333]BlueprintLog: New page: Compile Quirk_All-In-One
+[2024.03.28-02.15.42:959][333]LogBlueprint: Error: [AssetLog] /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One: [Compiler] The property associated with  Owner  could not be found in '/Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One_C'
+[2024.03.28-02.15.42:960][333]LogBlueprint: Error: [AssetLog] /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One: [Compiler] The property associated with  Name  could not be found in '/Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One_C'
+[2024.03.28-02.15.42:960][333]LogBlueprint: Error: [AssetLog] /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One: [Compiler] The property associated with  Owner  could not be found in '/Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One_C'
+[2024.03.28-02.15.43:052][333]LogUObjectHash: Compacting FUObjectHashTables data took   5.40ms
+[2024.03.28-02.15.43:075][333]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-02.15.43:201][333]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirk_All-In-One
+[2024.03.28-02.15.43:201][333]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-OneA5AC7FA44924DC18C678B8BDC56C6B2D.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk_All-In-One.uasset'
+[2024.03.28-02.15.43:234][333]LogFileHelpers: InternalPromptForCheckoutAndSave took 158 ms (total: 2.88 sec)
+[2024.03.28-02.15.43:241][333]AssetCheck: New page: Asset Save: Quirk_All-In-One
+[2024.03.28-02.15.43:242][333]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One
+[2024.03.28-02.18.24:236][583]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
+[2024.03.28-02.18.24:240][583]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.033
+[2024.03.28-02.18.24:241][583]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.28-02.18.24:241][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.28-02.18.24:312][583]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto1
+[2024.03.28-02.18.24:312][583]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto19AC370034CABFAAF57A685B7DF5D8659.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto1.uasset'
+[2024.03.28-02.18.24:314][583]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Relationship] ([1] browsable assets)...
+[2024.03.28-02.18.24:314][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Relationship]
+[2024.03.28-02.18.24:322][583]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Relationship_Auto1
+[2024.03.28-02.18.24:322][583]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Relationship_Auto19DF090BE4040D1B97F82219F4DEE36C9.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Relationship_Auto1.uasset'
+[2024.03.28-02.18.24:323][583]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Quirk] ([2] browsable assets)...
+[2024.03.28-02.18.24:324][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Quirk]
+[2024.03.28-02.18.24:330][583]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Quirk_Auto1
+[2024.03.28-02.18.24:330][583]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_Auto19F1FD6DA491B1EC04757229A946EA851.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Quirk_Auto1.uasset'
+[2024.03.28-02.18.24:331][583]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Quirk_All-In-One] ([2] browsable assets)...
+[2024.03.28-02.18.24:332][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Quirk_All-In-One]
+[2024.03.28-02.18.24:345][583]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Quirk_All-In-One_Auto1
+[2024.03.28-02.18.24:345][583]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-One_Auto1423587784E49F4810066889AD213CC90.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Quirk_All-In-One_Auto1.uasset'
+[2024.03.28-02.18.24:346][583]LogFileHelpers: Auto-saving content packages took 0.106
+[2024.03.28-02.22.36:466][602]BlueprintLog: New page: Compile Quirk_All-In-One
+[2024.03.28-02.22.36:475][602]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Quirk_All-In-One.uasset: [Compiler] The property associated with  Owner  could not be found in '/Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One_C'
+[2024.03.28-02.22.36:475][602]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Quirk_All-In-One.uasset: [Compiler] The property associated with  Name  could not be found in '/Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One_C'
+[2024.03.28-02.22.36:475][602]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Quirk_All-In-One.uasset: [Compiler] The property associated with  Owner  could not be found in '/Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One_C'
+[2024.03.28-02.22.36:505][602]LogUObjectHash: Compacting FUObjectHashTables data took   3.07ms
+[2024.03.28-02.22.36:526][602]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-02.22.36:626][602]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirk_All-In-One
+[2024.03.28-02.22.36:627][602]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-One0F11023D4EAB668C4BC4089803A72817.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk_All-In-One.uasset'
+[2024.03.28-02.22.36:642][602]LogFileHelpers: InternalPromptForCheckoutAndSave took 116 ms (total: 3.00 sec)
+[2024.03.28-02.22.36:650][602]AssetCheck: New page: Asset Save: Quirk_All-In-One
+[2024.03.28-02.22.36:650][602]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One
+[2024.03.28-02.33.14:606][  9]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.187 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 642 files in 1101 folders with total size 5 MiB.
+[2024.03.28-02.34.11:315][884]BlueprintLog: New page: Compile Quirk_All-In-One
+[2024.03.28-02.34.11:379][884]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Quirk_All-In-One.uasset: [Compiler] The property associated with  Owner  could not be found in '/Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One_C'
+[2024.03.28-02.34.11:379][884]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Quirk_All-In-One.uasset: [Compiler] The property associated with  Name  could not be found in '/Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One_C'
+[2024.03.28-02.34.11:380][884]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Quirk_All-In-One.uasset: [Compiler] The property associated with  Owner  could not be found in '/Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One_C'
+[2024.03.28-02.34.11:547][884]LogUObjectHash: Compacting FUObjectHashTables data took   7.15ms
+[2024.03.28-02.34.11:600][884]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-02.34.11:742][884]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirk_All-In-One
+[2024.03.28-02.34.11:745][884]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-One4115372947E991A8E90621A0E1FB5063.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk_All-In-One.uasset'
+[2024.03.28-02.34.11:765][884]LogFileHelpers: InternalPromptForCheckoutAndSave took 165 ms (total: 3.16 sec)
+[2024.03.28-02.34.11:795][884]AssetCheck: New page: Asset Save: Quirk_All-In-One
+[2024.03.28-02.34.11:795][884]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One
+[2024.03.28-02.36.30:750][123]LogUObjectHash: Compacting FUObjectHashTables data took   4.33ms
+[2024.03.28-02.36.30:756][123]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.051
+[2024.03.28-02.36.30:758][123]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Quirk_All-In-One] ([2] browsable assets)...
+[2024.03.28-02.36.30:758][123]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Quirk_All-In-One]
+[2024.03.28-02.36.30:781][123]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Quirk_All-In-One_Auto2
+[2024.03.28-02.36.30:781][123]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-One_Auto294CFCBED4AA11DD327E5B3BB65C36429.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Quirk_All-In-One_Auto2.uasset'
+[2024.03.28-02.36.30:786][123]LogFileHelpers: Auto-saving content packages took 0.030
+[2024.03.28-02.36.54:483][547]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-02.36.54:620][547]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirk_All-In-One
+[2024.03.28-02.36.54:622][547]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-One48D893F34338ABDE4D4D348E7844C60C.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk_All-In-One.uasset'
+[2024.03.28-02.36.54:639][547]LogFileHelpers: InternalPromptForCheckoutAndSave took 155 ms (total: 3.32 sec)
+[2024.03.28-02.36.54:645][547]AssetCheck: New page: Asset Save: Quirk_All-In-One
+[2024.03.28-02.36.54:646][547]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One
+[2024.03.28-02.37.05:325][122]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-02.37.05:446][122]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Relationship
+[2024.03.28-02.37.05:448][122]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Relationship182E59C548120E0BD4BD53B2E9698C48.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Relationship.uasset'
+[2024.03.28-02.37.05:467][122]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 3.46 sec)
+[2024.03.28-02.37.05:471][122]AssetCheck: New page: Asset Save: Relationship
+[2024.03.28-02.37.05:471][122]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprint_Classes/Relationship.Relationship
+[2024.03.28-02.37.10:101][357]BlueprintLog: New page: Compile CChar
+[2024.03.28-02.37.10:289][357]LogUObjectHash: Compacting FUObjectHashTables data took   2.45ms
+[2024.03.28-02.37.10:441][357]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-02.37.10:548][357]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-02.37.10:631][357]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-02.37.10:633][357]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharE80AA34B42688999A9357492EE8C62BA.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-02.37.10:653][357]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 3.67 sec)
+[2024.03.28-02.37.10:659][357]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-02.37.10:659][357]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-02.37.19:248][816]BlueprintLog: New page: Compile Quirk
+[2024.03.28-02.37.19:301][816]LogUObjectHash: Compacting FUObjectHashTables data took   4.94ms
+[2024.03.28-02.37.19:325][816]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-02.37.19:445][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/Quirk" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk.uasset" SILENT=true
+[2024.03.28-02.37.19:455][816]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirk
+[2024.03.28-02.37.19:455][816]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk063A6B684CF2AB9A2AE7C19A388AA318.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk.uasset'
+[2024.03.28-02.37.19:504][816]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 3.85 sec)
+[2024.03.28-02.37.19:508][816]AssetCheck: New page: Asset Save: Quirk
+[2024.03.28-02.37.19:509][816]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk.Quirk
+[2024.03.28-02.37.29:403][250]BlueprintLog: New page: Compile Quirk_All-In-One
+[2024.03.28-02.37.29:488][250]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2024.03.28-02.37.29:501][250]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-02.37.29:632][250]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirk_All-In-One
+[2024.03.28-02.37.29:633][250]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_All-In-OneC8D78DF247971E5B71D1E2AA3CBDE84B.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk_All-In-One.uasset'
+[2024.03.28-02.37.29:649][250]LogFileHelpers: InternalPromptForCheckoutAndSave took 147 ms (total: 4.00 sec)
+[2024.03.28-02.37.29:663][250]AssetCheck: New page: Asset Save: Quirk_All-In-One
+[2024.03.28-02.37.29:664][250]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk_All-In-One.Quirk_All-In-One
