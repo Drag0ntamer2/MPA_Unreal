@@ -1842,3 +1842,60 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.03.28-01.29.02:479][437]LogFileHelpers: InternalPromptForCheckoutAndSave took 141 ms (total: 2.32 sec)
 [2024.03.28-01.29.02:484][437]AssetCheck: New page: Asset Save: CChar
 [2024.03.28-01.29.02:484][437]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-01.31.12:532][461]LogEditorViewport: Clicking Background
+[2024.03.28-01.32.44:423][968]BlueprintLog: New page: Compile CChar
+[2024.03.28-01.32.44:533][968]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2024.03.28-01.32.44:599][968]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-01.32.44:713][968]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-01.32.44:768][968]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-01.32.44:772][968]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar4DF011544DC9DBB55876B586D78E6B1B.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-01.32.44:791][968]LogFileHelpers: InternalPromptForCheckoutAndSave took 191 ms (total: 2.51 sec)
+[2024.03.28-01.32.44:792][968]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-01.32.44:792][968]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-01.33.15:562][165]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.144 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 642 files in 1101 folders with total size 5 MiB.
+[2024.03.28-01.35.19:255][346]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.28-01.35.19:394][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.28-01.35.19:450][346]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.28-01.35.19:451][346]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar80C29E624AB04E38B804978B02A371B3.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.28-01.35.19:467][346]LogFileHelpers: InternalPromptForCheckoutAndSave took 211 ms (total: 2.72 sec)
+[2024.03.28-01.35.19:481][346]AssetCheck: New page: Asset Save: CChar
+[2024.03.28-01.35.19:481][346]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.28-01.35.54:026][336]LogEditorViewport: Clicking Background
+[2024.03.28-01.36.19:351][833]LogEditorViewport: Clicking Background
+[2024.03.28-01.36.54:487][432]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.03.28-01.36.54:516][432]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.03.28-01.36.54:528][432]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.03.28-01.36.54:566][433]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.03.28-01.37.01:460][842]LogContentBrowser: Attempting asset rename: NewBlueprint -> Quirk
+[2024.03.28-01.37.01:485][842]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.03.28-01.37.03:405][953]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint_Classes/Quirk.Quirk
+[2024.03.28-01.37.03:433][953]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.28-01.37.03:444][953]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.28-01.41.50:380][808]LogUObjectHash: Compacting FUObjectHashTables data took   2.62ms
+[2024.03.28-01.41.50:385][808]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.052
+[2024.03.28-01.41.50:385][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.28-01.41.50:385][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.28-01.41.50:424][808]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto9
+[2024.03.28-01.41.50:425][808]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto919746A80426F0E63005811953D7BE093.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto9.uasset'
+[2024.03.28-01.41.50:427][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Relationship] ([1] browsable assets)...
+[2024.03.28-01.41.50:427][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Relationship]
+[2024.03.28-01.41.50:431][808]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Relationship_Auto9
+[2024.03.28-01.41.50:431][808]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Relationship_Auto95FB0C8F14419F896133F5BB6160CB4ED.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Relationship_Auto9.uasset'
+[2024.03.28-01.41.50:432][808]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Quirk] ([2] browsable assets)...
+[2024.03.28-01.41.50:432][808]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Quirk]
+[2024.03.28-01.41.50:442][808]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Quirk_Auto9
+[2024.03.28-01.41.50:442][808]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_Auto97E5E7952445272354E369A8650E0405B.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Quirk_Auto9.uasset'
+[2024.03.28-01.41.50:443][808]LogFileHelpers: Auto-saving content packages took 0.058
+[2024.03.28-01.43.35:737][657]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2024.03.28-01.43.35:743][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.28-01.44.49:528][852]LogContentBrowser: Deferred new asset file creation: NewObjectLibrary
+[2024.03.28-01.44.49:550][852]LogContentBrowser: Creating deferred item: NewObjectLibrary
+[2024.03.28-01.44.49:578][853]LogContentBrowser: Renaming the item being created (Deferred Item: NewObjectLibrary).
+[2024.03.28-01.44.55:671][216]LogContentBrowser: Attempting asset rename: NewObjectLibrary -> Characters
+[2024.03.28-01.44.55:676][216]LogContentBrowser: End creating deferred item NewObjectLibrary
+[2024.03.28-01.44.59:021][415]LogAssetEditorSubsystem: Opening Asset editor for ObjectLibrary /Game/Blueprint_Classes/Characters.Characters
+[2024.03.28-01.47.32:452][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.28-01.47.33:456][354]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.28-01.47.33:520][354]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
+[2024.03.28-01.47.33:548][354]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.03.28-01.47.33:586][354]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
