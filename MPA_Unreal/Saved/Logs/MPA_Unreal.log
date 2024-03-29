@@ -1414,3 +1414,10 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.03.29-03.54.57:172][881]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
 [2024.03.29-03.54.57:172][881]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Jessie.Jessie
 [2024.03.29-03.54.57:172][881]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Lilly.Lilly
+[2024.03.29-04.03.40:122][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.29-04.03.40:127][696]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.024
+[2024.03.29-04.03.40:127][696]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.29-04.03.40:127][696]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.29-04.03.40:198][696]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto7
+[2024.03.29-04.03.40:199][696]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto7073777E7487FAEF2B3861E9A59B200FF.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto7.uasset'
+[2024.03.29-04.03.40:201][696]LogFileHelpers: Auto-saving content packages took 0.074
