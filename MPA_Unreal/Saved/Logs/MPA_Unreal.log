@@ -1204,3 +1204,213 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2024.03.29-01.43.06:816][153]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Characters/Jessie_Auto3
 [2024.03.29-01.43.06:818][153]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Jessie_Auto3EDDC567A432DC3CDC60234A68F3E54F1.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Characters/Jessie_Auto3.uasset'
 [2024.03.29-01.43.06:821][153]LogFileHelpers: Auto-saving content packages took 0.027
+[2024.03.29-02.12.12:049][305]LogSlate: Warning: Slate: Had to block on waiting for a draw buffer
+[2024.03.29-02.12.15:676][354]BlueprintLog: New page: Compile Jessie
+[2024.03.29-02.12.15:727][354]LogUObjectHash: Compacting FUObjectHashTables data took   3.65ms
+[2024.03.29-02.12.15:744][354]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-02.12.15:982][354]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Characters/Jessie
+[2024.03.29-02.12.15:983][354]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Jessie67A8F9084ECEAC9905B0D790E779A7BD.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Characters/Jessie.uasset'
+[2024.03.29-02.12.16:082][354]LogFileHelpers: InternalPromptForCheckoutAndSave took 336 ms (total: 781 ms)
+[2024.03.29-02.12.16:091][354]AssetCheck: New page: Asset Save: Jessie
+[2024.03.29-02.12.16:091][354]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Jessie.Jessie
+[2024.03.29-02.12.46:081][727]BlueprintLog: New page: Compile Sofie
+[2024.03.29-02.12.46:141][727]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2024.03.29-02.12.46:155][727]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-02.12.46:406][727]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Characters/Sofie
+[2024.03.29-02.12.46:408][727]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Sofie39D7384F48C990AB5B337CB6234EE351.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Characters/Sofie.uasset'
+[2024.03.29-02.12.46:495][727]LogFileHelpers: InternalPromptForCheckoutAndSave took 339 ms (total: 1.12 sec)
+[2024.03.29-02.12.46:501][727]AssetCheck: New page: Asset Save: Sofie
+[2024.03.29-02.12.46:501][727]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Sofie.Sofie
+[2024.03.29-02.13.34:778][295]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.197 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 649 files in 1115 folders with total size 5 MiB.
+[2024.03.29-02.13.59:658][624]BlueprintLog: New page: Compile CChar
+[2024.03.29-02.13.59:810][624]LogUObjectHash: Compacting FUObjectHashTables data took   2.39ms
+[2024.03.29-02.13.59:844][624]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-02.13.59:982][624]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.29-02.14.00:066][624]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.29-02.14.00:067][624]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharE0D84DA94A514D22C12FFC8D0E17EDD8.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.29-02.14.00:119][624]LogFileHelpers: InternalPromptForCheckoutAndSave took 274 ms (total: 1.39 sec)
+[2024.03.29-02.14.00:126][624]AssetCheck: New page: Asset Save: CChar
+[2024.03.29-02.14.00:126][624]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.29-03.05.41:381][660]BlueprintLog: New page: Compile CChar
+[2024.03.29-03.05.41:475][660]LogUObjectHash: Compacting FUObjectHashTables data took   1.99ms
+[2024.03.29-03.05.41:501][660]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.05.41:604][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.29-03.05.41:665][660]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.29-03.05.41:668][660]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharDB38710F4DEAA54C123EF687FADC6D34.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.29-03.05.41:692][660]LogFileHelpers: InternalPromptForCheckoutAndSave took 190 ms (total: 1.58 sec)
+[2024.03.29-03.05.41:698][660]AssetCheck: New page: Asset Save: CChar
+[2024.03.29-03.05.41:698][660]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.29-03.06.37:526][506]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.03.29-03.06.37:531][506]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.033
+[2024.03.29-03.06.37:531][506]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.29-03.06.37:531][506]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.29-03.06.37:601][506]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto4
+[2024.03.29-03.06.37:602][506]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto4C39B6058489346B7D248B6B028FA89B6.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto4.uasset'
+[2024.03.29-03.06.37:604][506]LogFileHelpers: Auto-saving content packages took 0.074
+[2024.03.29-03.08.29:260][388]BlueprintLog: New page: Compile CChar
+[2024.03.29-03.08.29:344][388]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2024.03.29-03.08.29:371][388]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.08.29:464][388]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.29-03.08.29:538][388]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.29-03.08.29:540][388]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharE2F93B304536285EDC8A03A17C299E56.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.29-03.08.29:551][388]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Characters/Jessie
+[2024.03.29-03.08.29:552][388]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/JessieD99083564A89054603A231AE4963FD6C.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Characters/Jessie.uasset'
+[2024.03.29-03.08.29:569][388]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Characters/Sofie
+[2024.03.29-03.08.29:569][388]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/SofieEB80D7A1468C2B9BC9E1A48132C89561.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Characters/Sofie.uasset'
+[2024.03.29-03.08.29:589][388]LogFileHelpers: InternalPromptForCheckoutAndSave took 218 ms (total: 1.80 sec)
+[2024.03.29-03.08.29:595][388]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.29-03.08.29:595][388]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.29-03.08.29:596][388]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Jessie.Jessie
+[2024.03.29-03.08.29:596][388]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Sofie.Sofie
+[2024.03.29-03.13.34:747][159]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.166 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 649 files in 1115 folders with total size 5 MiB.
+[2024.03.29-03.14.35:422][506]LogEditorTransaction: Undo Delete current selection
+[2024.03.29-03.18.46:061][326]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.18.46:173][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.29-03.18.46:249][326]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.29-03.18.46:251][326]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharB4B3DD27466F0366C24E03BBEF7BEEB7.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.29-03.18.46:271][326]LogFileHelpers: InternalPromptForCheckoutAndSave took 210 ms (total: 2.01 sec)
+[2024.03.29-03.18.46:277][326]AssetCheck: New page: Asset Save: CChar
+[2024.03.29-03.18.46:277][326]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.29-03.18.47:965][418]BlueprintLog: New page: Compile CChar
+[2024.03.29-03.18.48:066][418]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2024.03.29-03.21.23:841][648]LogUObjectHash: Compacting FUObjectHashTables data took   2.59ms
+[2024.03.29-03.21.23:846][648]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.033
+[2024.03.29-03.21.23:848][648]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.29-03.21.23:848][648]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.29-03.21.23:945][648]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto5
+[2024.03.29-03.21.23:947][648]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto5F3A3C724475EEE24143729B332935020.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto5.uasset'
+[2024.03.29-03.21.23:949][648]LogFileHelpers: Auto-saving content packages took 0.103
+[2024.03.29-03.21.24:253][660]BlueprintLog: New page: Compile CChar
+[2024.03.29-03.21.24:362][660]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2024.03.29-03.21.24:409][660]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.21.24:543][660]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.29-03.21.24:634][660]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.29-03.21.24:636][660]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar07C21C094B7D7DAF804AF29CB54E0073.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.29-03.21.24:652][660]LogFileHelpers: InternalPromptForCheckoutAndSave took 243 ms (total: 2.25 sec)
+[2024.03.29-03.21.24:656][660]AssetCheck: New page: Asset Save: CChar
+[2024.03.29-03.21.24:656][660]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.29-03.22.56:087][742]BlueprintLog: New page: Compile CChar
+[2024.03.29-03.22.56:159][742]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2024.03.29-03.22.56:188][742]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.22.56:297][742]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.29-03.22.56:377][742]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.29-03.22.56:378][742]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharC1C7046D4076FD4E6F595698C536F81B.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.29-03.22.56:398][742]LogFileHelpers: InternalPromptForCheckoutAndSave took 208 ms (total: 2.46 sec)
+[2024.03.29-03.22.56:401][742]AssetCheck: New page: Asset Save: CChar
+[2024.03.29-03.22.56:401][742]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.29-03.24.36:805][465]BlueprintLog: New page: Compile Sofie
+[2024.03.29-03.24.36:841][465]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.03.29-03.32.28:853][186]BlueprintLog: New page: Compile CChar
+[2024.03.29-03.32.28:986][186]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
+[2024.03.29-03.32.29:039][186]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.32.29:149][186]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.29-03.32.29:225][186]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.29-03.32.29:227][186]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CCharD7567F3F42F130AB10FC1388E66DBB0B.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.29-03.32.29:252][186]LogFileHelpers: InternalPromptForCheckoutAndSave took 212 ms (total: 2.67 sec)
+[2024.03.29-03.32.29:256][186]AssetCheck: New page: Asset Save: CChar
+[2024.03.29-03.32.29:256][186]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.29-03.35.04:720][662]BlueprintLog: New page: Compile CChar
+[2024.03.29-03.35.04:795][662]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2024.03.29-03.35.04:826][662]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.35.04:935][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.29-03.35.05:008][662]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.29-03.35.05:009][662]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar7FE55B3C44127D4C52C508AAFEABF8E0.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.29-03.35.05:029][662]LogFileHelpers: InternalPromptForCheckoutAndSave took 204 ms (total: 2.88 sec)
+[2024.03.29-03.35.05:033][662]AssetCheck: New page: Asset Save: CChar
+[2024.03.29-03.35.05:034][662]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.29-03.36.03:854][105]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-03.36.03:859][105]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-03.36.04:924][160]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.03.29-03.36.04:924][160]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.29-03.40.12:708][ 59]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.03.29-03.40.12:742][ 59]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.03.29-03.40.12:750][ 59]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.03.29-03.40.12:779][ 60]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.03.29-03.40.26:765][887]LogContentBrowser: Attempting asset rename: NewBlueprint -> Prey_Storage
+[2024.03.29-03.40.26:787][887]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.03.29-03.40.33:416][279]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint_Classes/Characters/Prey_Storage.Prey_Storage
+[2024.03.29-03.40.33:424][279]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.29-03.40.33:432][279]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.29-03.41.20:621][908]LogSlate: Took 0.001634 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2024.03.29-03.41.27:534][243]BlueprintLog: New page: Compile Prey_Storage
+[2024.03.29-03.41.27:576][243]LogUObjectHash: Compacting FUObjectHashTables data took   2.12ms
+[2024.03.29-03.41.27:592][243]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.41.27:716][243]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Characters/Prey_Storage
+[2024.03.29-03.41.27:716][243]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Prey_Storage089C88324532D144F0E3A6A92C1414A0.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Characters/Prey_Storage.uasset'
+[2024.03.29-03.41.27:743][243]LogFileHelpers: InternalPromptForCheckoutAndSave took 151 ms (total: 3.03 sec)
+[2024.03.29-03.41.27:746][243]AssetCheck: New page: Asset Save: Prey_Storage
+[2024.03.29-03.41.27:746][243]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Prey_Storage.Prey_Storage
+[2024.03.29-03.45.24:224][352]LogMetaData: Removing '/Game/Blueprint_Classes/Quirks/Prey_Storage.SKEL_Prey_Storage_C' ref from Metadata '/Game/Blueprint_Classes/Characters/Prey_Storage.PackageMetaData'
+[2024.03.29-03.45.24:224][352]LogMetaData: Removing '/Game/Blueprint_Classes/Quirks/Prey_Storage.Prey_Storage_C' ref from Metadata '/Game/Blueprint_Classes/Characters/Prey_Storage.PackageMetaData'
+[2024.03.29-03.45.24:224][352]LogMetaData: Removing '/Game/Blueprint_Classes/Quirks/Prey_Storage.Prey_Storage:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Blueprint_Classes/Characters/Prey_Storage.PackageMetaData'
+[2024.03.29-03.45.24:224][352]LogMetaData: Removing '/Game/Blueprint_Classes/Quirks/Prey_Storage.Prey_Storage:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprint_Classes/Characters/Prey_Storage.PackageMetaData'
+[2024.03.29-03.45.24:224][352]LogMetaData: Removing '/Game/Blueprint_Classes/Quirks/Prey_Storage.SKEL_Prey_Storage_C:ReceiveBeginPlay' ref from Metadata '/Game/Blueprint_Classes/Characters/Prey_Storage.PackageMetaData'
+[2024.03.29-03.45.24:224][352]LogMetaData: Removing '/Game/Blueprint_Classes/Quirks/Prey_Storage.SKEL_Prey_Storage_C:ReceiveTick' ref from Metadata '/Game/Blueprint_Classes/Characters/Prey_Storage.PackageMetaData'
+[2024.03.29-03.45.24:256][352]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.45.24:414][352]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirks/Prey_Storage
+[2024.03.29-03.45.24:414][352]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Prey_Storage577EDD404875A635D89CE1AF81918B5D.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirks/Prey_Storage.uasset'
+[2024.03.29-03.45.24:437][352]LogFileHelpers: InternalPromptForCheckoutAndSave took 179 ms (total: 3.21 sec)
+[2024.03.29-03.45.24:478][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.75ms
+[2024.03.29-03.45.24:499][352]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2024.03.29-03.45.24:516][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.69ms
+[2024.03.29-03.45.24:588][352]AssetCheck: New page: Asset Save: Prey_Storage
+[2024.03.29-03.45.24:588][352]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirks/Prey_Storage.Prey_Storage
+[2024.03.29-03.46.37:199][701]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.03.29-03.46.37:199][701]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.03.29-03.47.48:443][974]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.03.29-03.48.10:932][640]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.03.29-03.48.32:378][885]LogSlate: Window 'Pick Parent Class' being destroyed
+[2024.03.29-03.48.32:400][885]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2024.03.29-03.48.32:410][885]LogContentBrowser: Creating deferred item: NewBlueprint
+[2024.03.29-03.48.32:425][886]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2024.03.29-03.48.37:580][322]LogContentBrowser: Attempting asset rename: NewBlueprint -> Lilly
+[2024.03.29-03.48.37:592][322]LogContentBrowser: End creating deferred item NewBlueprint
+[2024.03.29-03.48.41:216][619]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint_Classes/Characters/Lilly.Lilly
+[2024.03.29-03.48.41:216][619]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.29-03.48.41:216][619]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.29-03.50.28:049][744]BlueprintLog: New page: Compile Prey_Storage
+[2024.03.29-03.50.28:078][744]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2024.03.29-03.50.28:086][744]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.50.28:189][744]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirks/Prey_Storage
+[2024.03.29-03.50.28:189][744]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Prey_Storage5D5A3E1F4734B1600289C886D12F428F.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirks/Prey_Storage.uasset'
+[2024.03.29-03.50.28:206][744]LogFileHelpers: InternalPromptForCheckoutAndSave took 119 ms (total: 3.33 sec)
+[2024.03.29-03.50.28:209][744]AssetCheck: New page: Asset Save: Prey_Storage
+[2024.03.29-03.50.28:209][744]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirks/Prey_Storage.Prey_Storage
+[2024.03.29-03.50.30:951][894]BlueprintLog: New page: Compile Lilly
+[2024.03.29-03.50.30:979][894]LogUObjectHash: Compacting FUObjectHashTables data took   1.82ms
+[2024.03.29-03.50.30:992][894]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.50.31:109][894]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Characters/Lilly
+[2024.03.29-03.50.31:109][894]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Lilly80C41FFC4C88960DAD9BBCBA116BA780.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Characters/Lilly.uasset'
+[2024.03.29-03.50.31:128][894]LogFileHelpers: InternalPromptForCheckoutAndSave took 136 ms (total: 3.46 sec)
+[2024.03.29-03.50.31:131][894]AssetCheck: New page: Asset Save: Lilly
+[2024.03.29-03.50.31:131][894]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Lilly.Lilly
+[2024.03.29-03.53.39:559][772]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
+[2024.03.29-03.53.39:564][772]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.028
+[2024.03.29-03.53.39:564][772]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Characters/Jessie] ([2] browsable assets)...
+[2024.03.29-03.53.39:564][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Characters/Jessie]
+[2024.03.29-03.53.39:571][772]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Characters/Jessie_Auto6
+[2024.03.29-03.53.39:571][772]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Jessie_Auto6ECFB30A34F2F86D32083D281B1460706.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Characters/Jessie_Auto6.uasset'
+[2024.03.29-03.53.39:573][772]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.29-03.53.39:573][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.29-03.53.39:643][772]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto6
+[2024.03.29-03.53.39:644][772]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto68C4A7C0E41B611C9C2A48DA39349DDB2.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto6.uasset'
+[2024.03.29-03.53.39:647][772]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Characters/Lilly] ([2] browsable assets)...
+[2024.03.29-03.53.39:647][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Characters/Lilly]
+[2024.03.29-03.53.39:653][772]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Characters/Lilly_Auto6
+[2024.03.29-03.53.39:653][772]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Lilly_Auto657D6B6774E59AF21AF73798CB216FFB0.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Characters/Lilly_Auto6.uasset'
+[2024.03.29-03.53.39:654][772]LogFileHelpers: Auto-saving content packages took 0.091
+[2024.03.29-03.54.56:801][881]BlueprintLog: New page: Compile CChar
+[2024.03.29-03.54.56:894][881]LogUObjectHash: Compacting FUObjectHashTables data took   2.06ms
+[2024.03.29-03.54.56:923][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.29-03.54.57:035][881]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/CChar" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset" SILENT=true
+[2024.03.29-03.54.57:118][881]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/CChar
+[2024.03.29-03.54.57:119][881]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar76DDAE6E466CF36440C9C6A5B0AB0D99.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/CChar.uasset'
+[2024.03.29-03.54.57:132][881]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Characters/Jessie
+[2024.03.29-03.54.57:133][881]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Jessie6604AC564DDF2CFB1B191FA6633C2494.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Characters/Jessie.uasset'
+[2024.03.29-03.54.57:143][881]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Characters/Lilly
+[2024.03.29-03.54.57:144][881]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Lilly62CC305743F9BB6E6F60A38E88F8081A.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Characters/Lilly.uasset'
+[2024.03.29-03.54.57:166][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 242 ms (total: 3.71 sec)
+[2024.03.29-03.54.57:172][881]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.29-03.54.57:172][881]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/CChar.CChar
+[2024.03.29-03.54.57:172][881]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Jessie.Jessie
+[2024.03.29-03.54.57:172][881]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Lilly.Lilly
