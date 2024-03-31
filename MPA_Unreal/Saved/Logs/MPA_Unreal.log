@@ -1565,3 +1565,149 @@ Make sure 'Sofie_C' has been compiled for  Set Body
 [2024.03.31-20.01.45:439][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
 [2024.03.31-20.01.45:467][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
 [2024.03.31-20.01.45:489][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2024.03.31-20.34.55:321][696]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.124 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 654 files in 1125 folders with total size 5 MiB.
+[2024.03.31-20.54.09:873][246]LogUObjectHash: Compacting FUObjectHashTables data took   8.16ms
+[2024.03.31-20.54.13:192][246]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.31-20.54.13:259][246]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprint_Classes/PlotCharting.PlotCharting
+	Asset Type: Blueprint
+[2024.03.31-20.54.13:703][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.03.31-20.54.13:730][246]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2024.03.31-20.54.13:755][246]LogUObjectHash: Compacting FUObjectHashTables data took   0.97ms
+[2024.03.31-20.55.31:189][406]LogUObjectHash: Compacting FUObjectHashTables data took   2.80ms
+[2024.03.31-20.55.31:194][406]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.030
+[2024.03.31-20.55.31:194][406]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/common] ([2] browsable assets)...
+[2024.03.31-20.55.31:194][406]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/common]
+[2024.03.31-20.55.31:233][406]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/common_Auto2
+[2024.03.31-20.55.31:233][406]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common_Auto2E3AEA73E400A691F84919AA4F2E0F05C.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/common_Auto2.uasset'
+[2024.03.31-20.55.31:236][406]LogFileHelpers: Auto-saving content packages took 0.042
+[2024.03.31-21.03.42:690][609]LogEditorTransaction: Undo Move Node
+[2024.03.31-21.04.50:386][898]LogEditorTransaction: Undo Nudge Node
+[2024.03.31-21.04.50:518][898]LogEditorTransaction: Undo Nudge Node
+[2024.03.31-21.04.50:757][902]LogEditorTransaction: Undo Nudge Node
+[2024.03.31-21.04.51:096][908]LogEditorTransaction: Undo Nudge Node
+[2024.03.31-21.04.51:363][912]LogEditorTransaction: Undo Nudge Node
+[2024.03.31-21.04.51:563][915]LogEditorTransaction: Undo Create Reroute Node
+[2024.03.31-21.04.52:030][922]LogEditorTransaction: Undo Move Node
+[2024.03.31-21.04.52:297][926]LogEditorTransaction: Undo Create Pin Link
+[2024.03.31-21.04.52:897][935]LogEditorTransaction: Undo Add Node
+[2024.03.31-21.05.31:756][889]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2024.03.31-21.05.31:760][889]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.036
+[2024.03.31-21.05.31:761][889]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.31-21.05.31:761][889]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.31-21.05.31:887][889]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto3
+[2024.03.31-21.05.31:889][889]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto3786EFB804295BD6E0803FABAC191AC30.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto3.uasset'
+[2024.03.31-21.05.31:891][889]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/common] ([2] browsable assets)...
+[2024.03.31-21.05.31:892][889]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/common]
+[2024.03.31-21.05.31:927][889]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/common_Auto3
+[2024.03.31-21.05.31:927][889]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common_Auto3AE65D5B740BBE1FE3FB8239F0D1B4F41.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/common_Auto3.uasset'
+[2024.03.31-21.05.31:930][889]LogFileHelpers: Auto-saving content packages took 0.170
+[2024.03.31-21.10.34:654][217]LogEditorTransaction: Undo Delete current selection
+[2024.03.31-21.11.01:263][764]LogEditorTransaction: Undo Move Node
+[2024.03.31-21.15.51:454][981]LogEditorTransaction: Undo Move Node
+[2024.03.31-21.17.25:665][ 27]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2024.03.31-21.17.25:668][ 27]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.037
+[2024.03.31-21.17.25:668][ 27]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.31-21.17.25:669][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.31-21.17.25:748][ 27]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto4
+[2024.03.31-21.17.25:750][ 27]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto44A4BBA2845E0C3953F4B558552A9A1B6.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto4.uasset'
+[2024.03.31-21.17.25:753][ 27]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/common] ([2] browsable assets)...
+[2024.03.31-21.17.25:753][ 27]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/common]
+[2024.03.31-21.17.25:786][ 27]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/common_Auto4
+[2024.03.31-21.17.25:786][ 27]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common_Auto475144B1A4300FB122A15318BA137A658.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/common_Auto4.uasset'
+[2024.03.31-21.17.25:788][ 27]LogFileHelpers: Auto-saving content packages took 0.120
+[2024.03.31-21.18.50:551][286]BlueprintLog: New page: Compile common
+[2024.03.31-21.18.50:598][286]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.03.31-21.18.50:629][286]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-21.18.50:811][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/common" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset" SILENT=true
+[2024.03.31-21.18.50:842][286]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/common
+[2024.03.31-21.18.50:843][286]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common1A998B1240DA4631F021DA9856144E18.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset'
+[2024.03.31-21.18.50:878][286]LogFileHelpers: InternalPromptForCheckoutAndSave took 249 ms (total: 1.90 sec)
+[2024.03.31-21.18.50:885][286]AssetCheck: New page: Asset Save: common
+[2024.03.31-21.18.50:885][286]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/common.common
+[2024.03.31-21.20.19:272][791]BlueprintLog: New page: Compile common
+[2024.03.31-21.20.19:314][791]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2024.03.31-21.20.19:333][791]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-21.20.19:465][791]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/common" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset" SILENT=true
+[2024.03.31-21.20.19:497][791]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/common
+[2024.03.31-21.20.19:498][791]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common9105A7A44429D30D3E9543BF524DA817.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset'
+[2024.03.31-21.20.19:527][791]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 2.09 sec)
+[2024.03.31-21.20.19:536][791]AssetCheck: New page: Asset Save: common
+[2024.03.31-21.20.19:536][791]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/common.common
+[2024.03.31-21.21.32:589][892]LogD3D12RHI: Warning: Descriptor cache ran out of sub allocated descriptor blocks! Moving to Context local View heap strategy
+[2024.03.31-21.21.32:589][892]LogD3D12RHI: This should only happen in the Editor where it doesn't matter as much. If it happens in game you should increase the device global heap size!
+[2024.03.31-21.22.11:537][353]LogD3D12RHI: OnlineHeap RollOver Detected. Increase the heap size to prevent creation of additional heaps
+[2024.03.31-21.25.44:147][ 51]LogEditorTransaction: Undo Add Node
+[2024.03.31-21.30.23:189][826]BlueprintLog: New page: Compile common
+[2024.03.31-21.30.23:251][826]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2024.03.31-21.30.23:278][826]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-21.30.23:408][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/common" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset" SILENT=true
+[2024.03.31-21.30.23:447][826]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/common
+[2024.03.31-21.30.23:449][826]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/commonC5D3F019473403EC508A7BAC9C2AB65C.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset'
+[2024.03.31-21.30.23:472][826]LogFileHelpers: InternalPromptForCheckoutAndSave took 192 ms (total: 2.28 sec)
+[2024.03.31-21.30.23:477][826]AssetCheck: New page: Asset Save: common
+[2024.03.31-21.30.23:477][826]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/common.common
+[2024.03.31-21.31.48:356][820]BlueprintLog: New page: Compile common
+[2024.03.31-21.31.48:408][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2024.03.31-21.31.48:438][820]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-21.31.48:614][820]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/common" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset" SILENT=true
+[2024.03.31-21.31.48:658][820]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/common
+[2024.03.31-21.31.48:659][820]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common891F1A5C4F2C125B76836DB4660DB72C.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset'
+[2024.03.31-21.31.48:683][820]LogFileHelpers: InternalPromptForCheckoutAndSave took 245 ms (total: 2.53 sec)
+[2024.03.31-21.31.48:690][820]AssetCheck: New page: Asset Save: common
+[2024.03.31-21.31.48:690][820]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/common.common
+[2024.03.31-21.34.20:493][844]LogEditorTransaction: Undo Move Node
+[2024.03.31-21.34.21:647][889]LogEditorTransaction: Undo Add Node
+[2024.03.31-21.34.21:850][899]LogEditorTransaction: Undo Delete current selection
+[2024.03.31-21.34.22:064][910]LogEditorTransaction: Undo Delete current selection
+[2024.03.31-21.34.22:220][917]LogEditorTransaction: Undo Move Node
+[2024.03.31-21.34.22:425][927]LogEditorTransaction: Undo Change String Pin Value
+[2024.03.31-21.34.23:246][974]LogEditorTransaction: Undo Move Node
+[2024.03.31-21.34.23:525][988]LogEditorTransaction: Undo Nudge Node
+[2024.03.31-21.34.23:725][998]LogEditorTransaction: Undo Nudge Node
+[2024.03.31-21.34.33:266][562]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-21.34.33:453][562]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/common" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset" SILENT=true
+[2024.03.31-21.34.33:490][562]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/common
+[2024.03.31-21.34.33:492][562]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common4BECE7D243D79AE54BE62BA317ADB885.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset'
+[2024.03.31-21.34.33:523][562]LogFileHelpers: InternalPromptForCheckoutAndSave took 257 ms (total: 2.79 sec)
+[2024.03.31-21.34.33:537][562]AssetCheck: New page: Asset Save: common
+[2024.03.31-21.34.33:537][562]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/common.common
+[2024.03.31-21.34.35:366][672]LogEditorTransaction: Redo Nudge Node
+[2024.03.31-21.34.35:703][676]LogEditorTransaction: Redo Nudge Node
+[2024.03.31-21.34.35:953][681]LogEditorTransaction: Redo Move Node
+[2024.03.31-21.34.36:153][691]LogEditorTransaction: Redo Change String Pin Value
+[2024.03.31-21.34.36:343][700]LogEditorTransaction: Redo Move Node
+[2024.03.31-21.34.36:518][708]LogEditorTransaction: Redo Delete current selection
+[2024.03.31-21.34.36:740][719]LogEditorTransaction: Redo Delete current selection
+[2024.03.31-21.34.37:887][786]LogEditorTransaction: Undo Delete current selection
+[2024.03.31-21.34.38:100][797]LogEditorTransaction: Undo Delete current selection
+[2024.03.31-21.34.45:330][227]BlueprintLog: New page: Compile common
+[2024.03.31-21.34.45:378][227]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
+[2024.03.31-21.34.45:401][227]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-21.34.45:556][227]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/common" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset" SILENT=true
+[2024.03.31-21.34.45:599][227]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/common
+[2024.03.31-21.34.45:600][227]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/commonDABCBFD94328D43E050C798B8C15180D.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset'
+[2024.03.31-21.34.45:628][227]LogFileHelpers: InternalPromptForCheckoutAndSave took 227 ms (total: 3.01 sec)
+[2024.03.31-21.34.45:633][227]AssetCheck: New page: Asset Save: common
+[2024.03.31-21.34.45:633][227]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/common.common
+[2024.03.31-21.34.55:308][794]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.111 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 654 files in 1125 folders with total size 5 MiB.
+[2024.03.31-21.36.39:706][996]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2024.03.31-21.36.39:709][996]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.027
+[2024.03.31-21.36.39:709][996]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/CChar] ([2] browsable assets)...
+[2024.03.31-21.36.39:709][996]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/CChar]
+[2024.03.31-21.36.39:790][996]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/CChar_Auto5
+[2024.03.31-21.36.39:791][996]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/CChar_Auto55342ACDB4A0576598A250D997A88E3EF.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/CChar_Auto5.uasset'
+[2024.03.31-21.36.39:795][996]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/common] ([2] browsable assets)...
+[2024.03.31-21.36.39:795][996]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/common]
+[2024.03.31-21.36.39:831][996]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/common_Auto5
+[2024.03.31-21.36.39:833][996]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common_Auto5785F9AE146F927DDED9438AB978F8505.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/common_Auto5.uasset'
+[2024.03.31-21.36.39:835][996]LogFileHelpers: Auto-saving content packages took 0.126
+[2024.03.31-21.38.23:218][921]BlueprintLog: New page: Compile common
+[2024.03.31-21.38.23:267][921]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
+[2024.03.31-21.38.23:300][921]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-21.38.23:383][921]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/common" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset" SILENT=true
+[2024.03.31-21.38.23:413][921]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/common
+[2024.03.31-21.38.23:416][921]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/commonD2BDE3914826CF6BA47C34900490C16C.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset'
+[2024.03.31-21.38.23:428][921]LogFileHelpers: InternalPromptForCheckoutAndSave took 126 ms (total: 3.14 sec)
+[2024.03.31-21.38.23:439][921]AssetCheck: New page: Asset Save: common
+[2024.03.31-21.38.23:439][921]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/common.common
