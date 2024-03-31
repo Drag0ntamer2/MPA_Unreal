@@ -1339,3 +1339,229 @@ Make sure 'Lilly' has been compiled for  Get Prey
 [2024.03.31-19.46.44:293][970]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 930 ms)
 [2024.03.31-19.46.44:294][970]AssetCheck: New page: Asset Save: common
 [2024.03.31-19.46.44:294][970]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/common.common
+[2024.03.31-19.49.09:414][321]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint_Classes/Characters/Jessie.Jessie
+[2024.03.31-19.49.09:415][321]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-19.49.09:415][321]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-19.49.18:650][857]BlueprintLog: New page: Compile Jessie
+[2024.03.31-19.49.18:676][857]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2024.03.31-19.49.18:688][857]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-19.49.18:786][857]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Characters/Jessie
+[2024.03.31-19.49.18:788][857]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/JessieCB2721B24BFAADF94B1068A575A16A16.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Characters/Jessie.uasset'
+[2024.03.31-19.49.18:801][857]LogFileHelpers: InternalPromptForCheckoutAndSave took 113 ms (total: 1.04 sec)
+[2024.03.31-19.49.18:803][857]AssetCheck: New page: Asset Save: Jessie
+[2024.03.31-19.49.18:803][857]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Characters/Jessie.Jessie
+[2024.03.31-19.50.23:487][283]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-19.50.23:488][283]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-19.50.31:106][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2024.03.31-19.50.36:563][696]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.31-19.50.36:618][696]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprint_Classes/Characters/Jessie.Jessie
+	Asset Type: Blueprint
+[2024.03.31-19.50.37:020][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.04ms
+[2024.03.31-19.50.37:036][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.03.31-19.50.37:053][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.03.31-19.50.39:663][845]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprint_Classes/Characters/Lilly.Lilly
+[2024.03.31-19.50.39:663][845]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.03.31-19.50.39:663][845]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.03.31-19.51.22:517][382]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2024.03.31-19.51.22:517][382]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.03.31-19.51.28:360][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2024.03.31-19.51.30:722][700]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.31-19.51.30:744][700]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprint_Classes/Characters/Lilly.Lilly
+	Asset Type: Blueprint
+[2024.03.31-19.51.31:076][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2024.03.31-19.51.31:097][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2024.03.31-19.51.31:113][700]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2024.03.31-19.55.01:619][ 24]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2024.03.31-19.55.01:730][ 24]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.111 s
+[2024.03.31-19.55.01:730][ 24]LogOutputDevice: Error: === Handled ensure: ===
+[2024.03.31-19.55.01:730][ 24]LogOutputDevice: Error: 
+[2024.03.31-19.55.01:730][ 24]LogOutputDevice: Error: Ensure condition failed: !bGraphDataInvalid  [File:D:\build\++UE5\Sync\Engine\Source\Editor\GraphEditor\Private\SGraphPin.cpp] [Line: 914] 
+[2024.03.31-19.55.01:730][ 24]LogOutputDevice: Error: The Graph Pin Object has been invalidated. Someone is keeping a hard ref on the SGraphPin (SGraphPinKnot [SGraphNodeKnot.cpp(428)]). See InvalidateGraphData for more info
+[2024.03.31-19.55.01:730][ 24]LogOutputDevice: Error: Stack: 
+[2024.03.31-19.55.01:730][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff377ff0f1 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2024.03.31-19.55.01:730][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff37714e08 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2024.03.31-19.55.01:730][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff377fc706 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2024.03.31-19.55.01:730][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3759cf49 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff37796334 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff377940f5 UnrealEditor-GraphEditor.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce4266a UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3da5a560 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3da5a374 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce4266a UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce466f2 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce427ab UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce466f2 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3da5eac1 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce466f2 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3da5eac1 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce4266a UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce466f2 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce427ab UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce4266a UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce466f2 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce427ab UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3da5a374 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce4266a UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce466f2 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce427ab UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce466f2 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3da5eac1 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce4266a UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce466f2 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce427ab UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce4266a UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce466f2 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce427ab UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce466f2 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce427ab UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce4266a UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce41ad1 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce45925 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce76892 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3cc781bc UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3ce76c80 UnrealEditor-SlateCore.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3d70f615 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3d73518e UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3d70fc61 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3d757514 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fff3d756be2 UnrealEditor-Slate.dll!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007ff6c91d9d0f UnrealEditor.exe!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007ff6c91fd28c UnrealEditor.exe!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007ff6c91fd37a UnrealEditor.exe!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007ff6c9200854 UnrealEditor.exe!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007ff6c9216984 UnrealEditor.exe!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007ff6c9219d7a UnrealEditor.exe!UnknownFunction []
+[2024.03.31-19.55.01:731][ 24]LogOutputDevice: Error: [Callstack] 0x00007fffc32d257d KERNEL32.DLL!UnknownFunction []
+[2024.03.31-19.55.01:732][ 24]LogOutputDevice: Error: 
+[2024.03.31-19.55.01:740][ 24]LogStats:                SubmitErrorReport -  0.000 s
+[2024.03.31-19.55.03:263][ 24]LogStats:                    SendNewReport -  1.523 s
+[2024.03.31-19.55.03:263][ 24]LogStats:             FDebug::EnsureFailed -  1.644 s
+[2024.03.31-19.57.51:679][ 30]LogEditorTransaction: Undo Delete current selection
+[2024.03.31-19.57.52:190][ 37]LogEditorTransaction: Undo Move Node
+[2024.03.31-19.57.52:662][ 45]LogEditorTransaction: Undo Delete current selection
+[2024.03.31-19.59.34:592][849]BlueprintLog: New page: Compile common
+[2024.03.31-19.59.34:657][849]LogUObjectHash: Compacting FUObjectHashTables data took   2.49ms
+[2024.03.31-19.59.34:693][849]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-19.59.34:903][849]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/common" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset" SILENT=true
+[2024.03.31-19.59.34:947][849]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/common
+[2024.03.31-19.59.34:949][849]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common79ACF4134231E0BE6F1E8889A50A34B2.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset'
+[2024.03.31-19.59.35:008][849]LogFileHelpers: InternalPromptForCheckoutAndSave took 314 ms (total: 1.35 sec)
+[2024.03.31-19.59.35:012][849]AssetCheck: New page: Asset Save: common
+[2024.03.31-19.59.35:012][849]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/common.common
+[2024.03.31-19.59.56:019][247]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] In use pin  <Unnamed>  no longer exists on node  Set Body . Please refresh node or break links to remove pin.
+[2024.03.31-19.59.56:019][247]LogBlueprint: Warning: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] Input pin  Tits  specifying non-default value no longer exists on node  Set Body . Please refresh node or reset pin to default value to remove pin.
+[2024.03.31-19.59.56:019][247]LogBlueprint: Warning: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] Input pin  Chest Width  specifying non-default value no longer exists on node  Set Body . Please refresh node or reset pin to default value to remove pin.
+[2024.03.31-19.59.56:019][247]LogBlueprint: Warning: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] Input pin  Shins  specifying non-default value no longer exists on node  Set Body . Please refresh node or reset pin to default value to remove pin.
+[2024.03.31-19.59.56:019][247]LogBlueprint: Warning: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] Input pin  Arm Size  specifying non-default value no longer exists on node  Set Body . Please refresh node or reset pin to default value to remove pin.
+[2024.03.31-19.59.56:019][247]LogBlueprint: Warning: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] Input pin  Hip  specifying non-default value no longer exists on node  Set Body . Please refresh node or reset pin to default value to remove pin.
+[2024.03.31-19.59.56:019][247]LogBlueprint: Warning: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] Input pin  Scale  specifying non-default value no longer exists on node  Set Body . Please refresh node or reset pin to default value to remove pin.
+[2024.03.31-19.59.56:019][247]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] Could not find a function named "SetBody" in 'Sofie_C'.
+Make sure 'Sofie_C' has been compiled for  Set Body
+[2024.03.31-19.59.56:021][247]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] In use pin  Abs Mass  no longer exists on node  Absorb . Please refresh node or break links to remove pin.
+[2024.03.31-19.59.56:021][247]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] In use pin  Prey  no longer exists on node  Absorb . Please refresh node or break links to remove pin.
+[2024.03.31-19.59.56:021][247]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] In use pin  Absorbed Mass  no longer exists on node  Return Node . Please refresh node or break links to remove pin.
+[2024.03.31-19.59.56:021][247]LogBlueprint: Error: [AssetLog] C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Content\Blueprint_Classes\Characters\Sofie.uasset: [Compiler] In use pin  Absorbed  no longer exists on node  Return Node . Please refresh node or break links to remove pin.
+[2024.03.31-19.59.56:058][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.36ms
+[2024.03.31-20.00.00:735][247]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.31-20.00.00:824][247]LogUObjectGlobals: Force Deleting 7 Package(s):
+	Asset Name: /Game/Blueprint_Classes/Quirks/All-In-One.All-In-One
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint_Classes/Quirks/Bioluminescence.Bioluminescence
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint_Classes/Quirks/Giant_Strength.Giant_Strength
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint_Classes/Quirks/Lovers_Embrace.Lovers_Embrace
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint_Classes/Quirks/Prey_Storage.Prey_Storage
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint_Classes/Quirks/Return-By-Death.Return-By-Death
+	Asset Type: Blueprint
+	Asset Name: /Game/Blueprint_Classes/Quirks/Rift.Rift
+	Asset Type: Blueprint
+[2024.03.31-20.00.01:496][247]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2024.03.31-20.00.01:523][247]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
+[2024.03.31-20.00.01:544][247]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2024.03.31-20.00.18:074][522]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2024.03.31-20.00.20:649][522]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.31-20.00.20:736][522]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprint_Classes/Characters/Sofie.Sofie
+	Asset Type: Blueprint
+[2024.03.31-20.00.21:217][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.55ms
+[2024.03.31-20.00.21:243][522]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2024.03.31-20.00.21:267][522]LogUObjectHash: Compacting FUObjectHashTables data took   0.94ms
+[2024.03.31-20.00.54:188][830]LogUObjectHash: Compacting FUObjectHashTables data took   2.65ms
+[2024.03.31-20.00.54:190][830]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.033
+[2024.03.31-20.00.54:193][830]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/common] ([2] browsable assets)...
+[2024.03.31-20.00.54:193][830]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/common]
+[2024.03.31-20.00.54:238][830]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/common_Auto1
+[2024.03.31-20.00.54:239][830]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common_Auto16A224EC04B01CACF7BC2F580F33C1373.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/common_Auto1.uasset'
+[2024.03.31-20.00.54:245][830]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/Quirk_Getters] ([2] browsable assets)...
+[2024.03.31-20.00.54:245][830]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/Quirk_Getters]
+[2024.03.31-20.00.54:306][830]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/Quirk_Getters_Auto1
+[2024.03.31-20.00.54:309][830]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_Getters_Auto193BE392B414A8C6D8D7B28BEC95F931B.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/Quirk_Getters_Auto1.uasset'
+[2024.03.31-20.00.54:311][830]LogFileHelpers: Auto-saving content packages took 0.120
+[2024.03.31-20.01.31:964][375]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2024.03.31-20.01.35:653][375]LogSlate: Window 'Save Content' being destroyed
+[2024.03.31-20.01.35:716][375]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.03.31-20.01.35:887][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprint_Classes/common" FILE="../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset" SILENT=true
+[2024.03.31-20.01.35:931][375]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/common
+[2024.03.31-20.01.35:933][375]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/common74D07BD1452DF2331AD16AB62BD5CA0A.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/common.uasset'
+[2024.03.31-20.01.35:959][375]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/Quirk_Getters
+[2024.03.31-20.01.35:960][375]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Quirk_Getters85F67B0541356B89EFE5949C4DFF4B50.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/Quirk_Getters.uasset'
+[2024.03.31-20.01.36:011][375]LogFileHelpers: InternalPromptForCheckoutAndSave took 295 ms (total: 1.65 sec)
+[2024.03.31-20.01.36:016][375]AssetCheck: New page: Asset Save: multiple assets
+[2024.03.31-20.01.36:016][375]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/common.common
+[2024.03.31-20.01.36:016][375]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprint_Classes/Quirk_Getters.Quirk_Getters
+[2024.03.31-20.01.43:028][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2024.03.31-20.01.44:886][492]LogSlate: Window 'Delete Assets' being destroyed
+[2024.03.31-20.01.44:948][492]LogUObjectGlobals: Force Deleting 1 Package(s):
+	Asset Name: /Game/Blueprint_Classes/Quirk_Getters.Quirk_Getters
+	Asset Type: Blueprint
+[2024.03.31-20.01.45:439][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2024.03.31-20.01.45:467][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2024.03.31-20.01.45:489][492]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
