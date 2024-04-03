@@ -1430,3 +1430,45 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.03-15.27.50:694][389]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2024.04.03-15.27.50:716][389]LogUObjectHash: Compacting FUObjectHashTables data took   1.26ms
 [2024.04.03-15.27.50:769][390]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2024.04.03-15.42.02:438][452]LogViewport: Scene viewport resized to 932x429, mode Windowed.
+[2024.04.03-15.56.26:890][105]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.110 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 656 files in 1129 folders with total size 5 MiB.
+[2024.04.03-16.56.26:163][ 37]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.377 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 656 files in 1129 folders with total size 5 MiB.
+[2024.04.03-17.56.25:971][829]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.174 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 656 files in 1129 folders with total size 5 MiB.
+[2024.04.03-18.56.26:854][625]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.057 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 656 files in 1129 folders with total size 5 MiB.
+[2024.04.03-19.28.36:101][489]LogViewport: Scene viewport resized to 1087x502, mode Windowed.
+[2024.04.03-19.28.59:206][821]LogAssetEditorSubsystem: Opening Asset editor for UserDefinedStruct /Game/Blueprint_Classes/types/Relationship.Relationship
+[2024.04.03-19.29.03:695][ 37]LogAssetRegistry: Warning: ScanPathsSynchronous: Package /Engine/Transient does not exist, will not scan.
+[2024.04.03-19.30.17:226][374]LogUObjectHash: Compacting FUObjectHashTables data took   7.06ms
+[2024.04.03-19.30.17:250][374]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.140
+[2024.04.03-19.30.17:256][374]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprint_Classes/types/Relationship] ([1] browsable assets)...
+[2024.04.03-19.30.17:256][374]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprint_Classes/types/Relationship]
+[2024.04.03-19.30.17:273][374]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/Blueprint_Classes/types/Relationship_Auto2
+[2024.04.03-19.30.17:273][374]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Relationship_Auto2482D00F04E3AA34956C98789A4CB863D.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/Blueprint_Classes/types/Relationship_Auto2.uasset'
+[2024.04.03-19.30.17:279][374]LogFileHelpers: Auto-saving content packages took 0.029
+[2024.04.03-19.30.55:690][630]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.03-19.30.55:789][630]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/types/Relationship
+[2024.04.03-19.30.55:790][630]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Relationship249C60E842104E9CDEE3ED880BABF91E.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/types/Relationship.uasset'
+[2024.04.03-19.30.55:811][630]LogFileHelpers: InternalPromptForCheckoutAndSave took 120 ms (total: 1.94 sec)
+[2024.04.03-19.30.55:827][630]AssetCheck: New page: Asset Save: Relationship
+[2024.04.03-19.30.55:829][630]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprint_Classes/types/Relationship.Relationship
+[2024.04.03-19.30.59:024][817]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.03-19.30.59:096][817]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/types/Relationship
+[2024.04.03-19.30.59:098][817]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Relationship61B3D5FC425A922D25BD0C9BB1614F9F.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/types/Relationship.uasset'
+[2024.04.03-19.30.59:106][817]LogFileHelpers: InternalPromptForCheckoutAndSave took 82 ms (total: 2.02 sec)
+[2024.04.03-19.30.59:108][817]AssetCheck: New page: Asset Save: Relationship
+[2024.04.03-19.30.59:108][817]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprint_Classes/types/Relationship.Relationship
+[2024.04.03-19.31.28:592][578]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.03-19.31.28:677][578]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/types/Relationship
+[2024.04.03-19.31.28:678][578]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Relationship7CDA8172477C6A6F5A474E80EBE3541D.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/types/Relationship.uasset'
+[2024.04.03-19.31.28:688][578]LogFileHelpers: InternalPromptForCheckoutAndSave took 96 ms (total: 2.12 sec)
+[2024.04.03-19.31.28:689][578]AssetCheck: New page: Asset Save: Relationship
+[2024.04.03-19.31.28:689][578]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprint_Classes/types/Relationship.Relationship
+[2024.04.03-19.31.31:052][717]LogEditorViewport: Clicking Background
+[2024.04.03-19.32.01:927][536]LogSlate: Window 'Relationship' being destroyed
+[2024.04.03-19.32.03:252][611]LogSlate: Window 'Relationship' being destroyed
+[2024.04.03-19.32.17:396][446]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.03-19.32.17:475][446]LogSavePackage: Moving output files for package: /Game/Blueprint_Classes/types/Relationship
+[2024.04.03-19.32.17:476][446]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Relationship1592435E442D9EA66DC22CB4BF8835DB.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/Blueprint_Classes/types/Relationship.uasset'
+[2024.04.03-19.32.17:486][446]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms (total: 2.21 sec)
+[2024.04.03-19.32.17:487][446]AssetCheck: New page: Asset Save: Relationship
+[2024.04.03-19.32.17:487][446]LogContentValidation: Display: Validating /Script/Engine.UserDefinedStruct /Game/Blueprint_Classes/types/Relationship.Relationship
