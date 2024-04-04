@@ -1460,3 +1460,185 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.04.03-20.10.12:218][239]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
 [2024.04.03-20.10.12:253][241]LogPlayLevel: Display: Destroying online subsystem :Context_5
 [2024.04.03-20.59.37:049][233]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.097 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 656 files in 1129 folders with total size 5 MiB.
+[2024.04.03-21.41.24:444][893]LogFactory: FactoryCreateFile: DialogueDataTable with DialogueFactoryFile (0 0 ../../../../../../Users/Caleb Merroto/Downloads/MainStory.dlg)
+[2024.04.03-21.41.24:863][894]LogAutomationController: Ignoring very large delta of 5.25 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.03-21.41.29:240][155]LogAssetEditorSubsystem: Opening Asset editor for DialogueDataTable /Game/VisualNovelSystem/DialogueSystem/TestTrees/MainStory.MainStory
+[2024.04.03-21.42.55:528][867]LogUObjectHash: Compacting FUObjectHashTables data took  14.55ms
+[2024.04.03-21.42.55:550][867]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/VisualNovelSystem/VisNovMap' took 0.138
+[2024.04.03-21.42.55:558][867]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/VisualNovelSystem/DialogueSystem/TestTrees/MainStory] ([1] browsable assets)...
+[2024.04.03-21.42.55:558][867]OBJ SavePackage: Finished generating thumbnails for package [/Game/VisualNovelSystem/DialogueSystem/TestTrees/MainStory]
+[2024.04.03-21.42.55:589][867]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/VisualNovelSystem/DialogueSystem/TestTrees/MainStory_Auto1
+[2024.04.03-21.42.55:589][867]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/MainStory_Auto10FEE31664630EF5652C9B99B810C11A1.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/Autosaves/Game/VisualNovelSystem/DialogueSystem/TestTrees/MainStory_Auto1.uasset'
+[2024.04.03-21.42.55:592][867]LogFileHelpers: Auto-saving content packages took 0.042
+[2024.04.03-21.59.37:049][872]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.096 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 656 files in 1129 folders with total size 5 MiB.
+[2024.04.03-22.59.37:994][669]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:01.042 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 656 files in 1129 folders with total size 5 MiB.
+[2024.04.03-23.45.39:808][951]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.04.03-23.45.40:992][951]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=39240
+[2024.04.03-23.45.41:717][954]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{cf6452f2-0e90-4980-be03-29ce4840e1eb}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=835.71
+[2024.04.03-23.45.41:720][954]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.04.03-23.45.41:728][954]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.04.04-03.04.24:320][966]LogHttp: Warning: 000007EA7476EB00: HTTP request timed out after 11918.44 seconds URL=https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDC0B23E2-4741-C6E8-BE76-CE88E7EAC465%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.04-03.04.24:374][966]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [11919 Seconds] waiting for h/w. InstanceID=1
+[2024.04.04-03.04.26:721][966]LogHttp: Warning: 000007EA7476EB00: request failed, libcurl error: 0 (No error)
+[2024.04.04-03.04.26:722][966]LogHttp: Warning: 000007EA7476EB00: libcurl info message cache 0 (Found bundle for host: 0x7ea029605a0 [serially])
+[2024.04.04-03.04.26:723][966]LogHttp: Warning: 000007EA7476EB00: libcurl info message cache 1 (Re-using existing connection with host datarouter.ol.epicgames.com)
+[2024.04.04-03.04.26:727][966]LogHttp: Warning: 000007EA7476EB00: libcurl info message cache 2 (We are completely uploaded and fine)
+[2024.04.04-03.04.26:729][966]LogHttp: Warning: 000007EA7476EB00: libcurl info message cache 3 (Closing connection)
+[2024.04.04-03.04.26:729][966]LogHttp: Warning: 000007EA7476EB00: libcurl info message cache 4 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.04-03.04.26:776][966]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDC0B23E2-4741-C6E8-BE76-CE88E7EAC465%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.04-03.04.30:184][966]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=39240
+[2024.04.04-03.04.30:469][966]LogAutomationController: Ignoring very large delta of 11925.12 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.04-03.04.32:196][970]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{cf6452f2-0e90-4980-be03-29ce4840e1eb}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=1586.50
+[2024.04.04-03.04.32:196][970]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.04.04-03.04.32:235][970]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.04.04-03.18.11:064][427]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.125 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 656 files in 1129 folders with total size 5 MiB.
+[2024.04.04-03.20.12:339][788]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [ 5 Seconds] waiting for h/w. InstanceID=1
+[2024.04.04-03.20.12:393][788]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=39240
+[2024.04.04-03.20.13:064][790]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{cf6452f2-0e90-4980-be03-29ce4840e1eb}, Name=Speakers (Realtek(R) Audio)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=377.83
+[2024.04.04-03.20.13:064][790]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
+[2024.04.04-03.20.13:066][790]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
+[2024.04.04-17.07.46:760][803]LogAutomationController: Ignoring very large delta of 49650.07 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.04-17.07.47:461][805]LogHttp: Warning: 000007EA74764600: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2024.04.04-17.07.47:461][805]LogHttp: Warning: 000007EA74764600: libcurl info message cache 0 (Too old connection (49677 seconds idle), disconnect it)
+[2024.04.04-17.07.47:462][805]LogHttp: Warning: 000007EA74764600: libcurl info message cache 1 (Connection 5 seems to be dead)
+[2024.04.04-17.07.47:462][805]LogHttp: Warning: 000007EA74764600: libcurl info message cache 2 (Closing connection)
+[2024.04.04-17.07.47:462][805]LogHttp: Warning: 000007EA74764600: libcurl info message cache 3 (TLSv1.2 (OUT), TLS alert, close notify (256):)
+[2024.04.04-17.07.47:462][805]LogHttp: Warning: 000007EA74764600: libcurl info message cache 4 (Could not resolve host: datarouter.ol.epicgames.com)
+[2024.04.04-17.07.47:462][805]LogHttp: Warning: 000007EA74764600: libcurl info message cache 5 (Closing connection)
+[2024.04.04-17.07.47:462][805]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDC0B23E2-4741-C6E8-BE76-CE88E7EAC465%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.3.2-29314046%2B%2B%2BUE5%2BRelease-5.3&UserID=f3f0fcc84018aa7d35e0d2a1e81ddfe7%7Ce139f77d60eb4dfc935d7ad636bad1ff%7Cd42a2456-c03b-4ae4-86e0-ce8aa2d8f022&AppEnvironment=datacollector-binary&UploadType=eteventstream
+[2024.04.04-17.13.09:880][323]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2024.04.04-17.13.09:892][323]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.04-17.13.12:121][440]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2024.04.04-17.13.12:121][440]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.04.04-18.02.36:718][309]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.04.04-18.02.36:765][309]LogContentBundle: [VisNovMap(Standalone)] Generating Streaming for 0 Content Bundles.
+[2024.04.04-18.02.36:766][309]LogWorldPartition: Display: GenerateStreaming for 'VisNovMap' started...
+[2024.04.04-18.02.37:407][309]LogWorldPartition: Display: GenerateStreaming for 'VisNovMap' took 641 ms (total: 1.16 sec)
+[2024.04.04-18.02.37:426][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.04.04-18.02.37:434][309]PIE: New page: PIE session: VisNovMap (Apr 4, 2024, 8:02:37 AM)
+[2024.04.04-18.02.37:444][309]LogPlayLevel: Creating play world package: /Game/VisualNovelSystem/UEDPIE_0_VisNovMap
+[2024.04.04-18.02.37:486][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041704s)
+[2024.04.04-18.02.37:487][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VisualNovelSystem/VisNovMap.VisNovMap to /Game/VisualNovelSystem/UEDPIE_0_VisNovMap.VisNovMap (0.042440s)
+[2024.04.04-18.02.37:653][309]LogUObjectHash: Compacting FUObjectHashTables data took   6.19ms
+[2024.04.04-18.02.37:675][309]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.04.04-18.02.37:686][309]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.04.04-18.02.37:703][309]LogAIModule: Creating AISystem for world VisNovMap
+[2024.04.04-18.02.37:724][309]LogWorldPartition: ULevel::OnLevelLoaded(VisNovMap)(bIsOwningWorldGameWorld=1, bIsOwningWorldPartitioned=1, InitializeForMainWorld=1, InitializeForEditor=0, InitializeForGame=1)
+[2024.04.04-18.02.37:724][309]LogWorldPartition: Display: WorldPartition initialize started...
+[2024.04.04-18.02.37:724][309]LogWorldPartition: UWorldPartition::Initialize : World = VisNovMap, World Type = PIE, IsMainWorldPartition = 1, Location = V(0), Rotation = R(0), IsEditor = 0, IsGame = 0, IsPIEWorldTravel = 0, IsCooking = 0
+[2024.04.04-18.02.37:724][309]LogWorldPartition: UWorldPartition::Initialize Context : World NetMode = Standalone, IsServer = 0, IsDedicatedServer = 0, IsServerStreamingEnabled = 0, IsServerStreamingOutEnabled = 0, IsUsingMakingVisibleTransaction = 0, IsUsingMakingInvisibleTransaction = 0
+[2024.04.04-18.02.37:726][309]LogContentBundle: [VisNovMap(Standalone)] Creating new contrainer.
+[2024.04.04-18.02.37:729][309]LogWorldPartition: Display: WorldPartition initialize took 5 ms (total: 82 ms)
+[2024.04.04-18.02.37:730][309]LogPlayLevel: PIE: World Init took: (0.059592s)
+[2024.04.04-18.02.37:732][309]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2024.04.04-18.02.37:734][309]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.04.04-18.02.37:734][309]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.04.04-18.02.37:734][309]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.04.04-18.02.37:734][309]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.04.04-18.02.37:734][309]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.04.04-18.02.37:734][309]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2024.04.04-18.02.37:734][309]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.04.04-18.02.37:734][309]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.04.04-18.02.37:738][309]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.04.04-18.02.37:738][309]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.04.04-18.02.37:738][309]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.04.04-18.02.37:742][309]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.04.04-18.02.37:857][309]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Realtek(R) Audio)
+[2024.04.04-18.02.37:865][309]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.04.04-18.02.37:865][309]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.04.04-18.02.37:866][309]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.04.04-18.02.37:872][309]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2024.04.04-18.02.37:873][309]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2024.04.04-18.02.37:875][309]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2024.04.04-18.02.37:875][309]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2024.04.04-18.02.37:877][309]LogInit: FAudioDevice initialized with ID 4.
+[2024.04.04-18.02.37:877][309]LogAudio: Display: Audio Device (ID: 4) registered with world 'VisNovMap'.
+[2024.04.04-18.02.37:878][309]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 4
+[2024.04.04-18.02.37:903][309]LogLoad: Game class is 'VisNovGameMode_C'
+[2024.04.04-18.02.37:909][309]LogWorld: Bringing World /Game/VisualNovelSystem/UEDPIE_0_VisNovMap.VisNovMap up for play (max tick rate 60) at 2024.04.04-13.02.37
+[2024.04.04-18.02.37:911][309]LogWorld: Bringing up level for play took: 0.006040
+[2024.04.04-18.02.37:925][309]LogOnline: OSS: Created online subsystem instance for: :Context_6
+[2024.04.04-18.02.37:967][309]LogWorldPartition: UWorldPartitionStreamingPolicy: CellsToActivate(1), CellsToLoad(0), CellsToUnload(0)
+[2024.04.04-18.02.37:968][309]LogWorldPartition: UWorldPartitionStreamingPolicy: Sources[0] = X=0.000 Y=0.000 Z=92.000,P=0.000000 Y=180.000000 R=-0.000000
+[2024.04.04-18.02.37:970][309]LogStreaming: Display: FlushAsyncLoading(): 4 QueuedPackages, 0 AsyncPackages
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/E/Z2/XNEDSFHN6LEZEGJACX2VK5.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/E/IT/YCWRQJGFIBD1I6MM6QVE99.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/E/ID/26BB9M73IJRZINRGZ93HDR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/E/CR/O1USSBZXWC7RWNR94YQDCZ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/E/5A/2K3JQ0TUFZP2EMXUEZJ9RD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/E/5A/2K3JQ0TUFZP2EMXUEZJ9RD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/D/GU/MQEHA9JX9DIG2ZFA0P9JIF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/D/CO/40UC8LKTU36KUUCMO8GDDR.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/C/MM/DNZUHVRSWDAVV44LJOOYFD.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/C/KQ/I8BJ4UNVL2FXZEEQ0Y2GWR.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/C/KQ/I8BJ4UNVL2FXZEEQ0Y2GWR.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/B/VY/O01I1UIIDV39IF409HTH4U.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/B/NB/BAIXG4C6E49IRJEIG79WB2.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/B/AA/J7QLLNMSZGM0XA8XBU80CK.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/A/SP/866W1ENBPR0WVRMDINPGVY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/A/JT/CR9PTESJ1QGYKUTB8FS5Z1.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/A/JT/CR9PTESJ1QGYKUTB8FS5Z1.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/A/15/0N2586A1IOB1SOHQA5NLBF.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/A/15/0N2586A1IOB1SOHQA5NLBF.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/9/WM/4PJ8U3PEQBRMZK2P8PKA8V.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/9/UZ/74SAJQ57PGY7GXDVIGZ0MY.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/9/F9/X7L98ZWJGFRJENDZKLZ1DL.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/9/1H/WKATPR9ZYV8K1JS92OG4XC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/8/YA/U0PCH3U4MY750OFTOALW6G.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/8/MI/EJ85HMOPW6LFOCCO4Y1R0B.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:000][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/8/AA/ZM7AOWV0DE95WD1ROE5AXF.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/8/7E/3DE3VVJ04OHX1QBOLKGBN0.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/7/DX/R4B7DG91BLHLYOCNSCPFKW.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/7/BO/FP35IU8VLB0YS3YRUCB4N1.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/7/BO/FP35IU8VLB0YS3YRUCB4N1.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/6/DA/XAOCZ3XI345XOGX21GYOLD.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/6/DA/XAOCZ3XI345XOGX21GYOLD.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/5/ZO/0FYNZUXSZQDHES9IIKNV1X.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/5/ZO/0FYNZUXSZQDHES9IIKNV1X.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/5/Y6/UCC0MCU3MTY85F90S6QHTT.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/5/Y6/UCC0MCU3MTY85F90S6QHTT.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/5/R2/00KH1AJBNFPJ0BAIF5URNS.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/5/R2/00KH1AJBNFPJ0BAIF5URNS.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/5/E0/OPOWTY9GVT2ANW07EKSXDA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/5/3F/K2KKI3FLEBPPSUTKKGBB8S.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/4/U5/PQNCQ3XO1BGMLB439WTUV1.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/3/NL/VS5YUM8SG3CNZ0ZY6V8VZU.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/3/MX/RAKNGYHAZQ27CM927X1NXI.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/3/ME/JQBG7ML3S74Y3R2XPJ5D1S.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/3/BM/IURIVL3DWN461ZXCE43RXW.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/3/BM/IURIVL3DWN461ZXCE43RXW.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/3/8R/EI4JQ0SK96EEP49I799454.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/2/U8/I9Z27Y0UOPQBXUS93J4C22.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/2/TO/64SRB5NZNFO9GLG4NCDNJC.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/2/P4/ZMUW3M74AE5OL050SBJTX9.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/2/P4/ZMUW3M74AE5OL050SBJTX9.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/1/GO/FAU1KIKR70HBAT3ZQ6MKFU.StaticMesh_HLOD0_Instancing_7 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/1/GO/FAU1KIKR70HBAT3ZQ6MKFU.StaticMesh_HLOD0_Instancing_6 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/1/GO/FAU1KIKR70HBAT3ZQ6MKFU.StaticMesh_HLOD0_Instancing_5 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/1/GO/FAU1KIKR70HBAT3ZQ6MKFU.StaticMesh_HLOD0_Instancing_4 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/1/EM/Y7YIRUN5FLR7M5819V2UOA.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/1/7N/7ZGG4MZCMQUYZ0RYCKJP2U.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/1/0R/4JJ6ATX4NC6220KRTXP02N.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/0/TV/4Y2FJOKUVYUD4LQW7R2VO4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/0/S6/88N6C5PV3J3W90AXVLVLXJ.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/0/PT/58KLPTJHSRHARRRR43GFR4.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/0/OG/VDVVL43732Q53OFZ5544O8.StaticMesh_HLOD0_Instancing_1 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/0/AV/8BW3VV8QOGAPP3CUHF9EBJ.StaticMesh_HLOD0_Instancing_3 being ready before playing
+[2024.04.04-18.02.38:001][309]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Game/__ExternalActors__/VisualNovelSystem/VisNovMap/0/AV/8BW3VV8QOGAPP3CUHF9EBJ.StaticMesh_HLOD0_Instancing_2 being ready before playing
+[2024.04.04-18.02.38:058][309]LogScript: Warning: Script Msg: The widget 'CharacterLoader_C_0' was already added to the screen.
+[2024.04.04-18.02.38:059][309]LogScript: Warning: Script Msg called by: VisNovChar_C /Game/VisualNovelSystem/UEDPIE_0_VisNovMap.VisNovMap:PersistentLevel.VisNovChar_C_0
+[2024.04.04-18.02.38:082][309]LogBlueprintUserMessages: [CChar] Leah_Anagro: 300.9
+[2024.04.04-18.02.38:082][309]LogBlueprintUserMessages: [CChar] Sofie_Moon: 332.3
+[2024.04.04-18.02.38:082][309]LogBlueprintUserMessages: [CChar] Jessie_Avatar: 363.26666
+[2024.04.04-18.02.38:085][309]PIE: Server logged in
+[2024.04.04-18.02.38:086][309]PIE: Play in editor total start time 1.324 seconds.
+[2024.04.04-18.02.48:527][912]LogUObjectHash: Compacting FUObjectHashTables data took   1.08ms
+[2024.04.04-18.02.51:641][912]LogSlate: Window 'Save Content' being destroyed
+[2024.04.04-18.02.51:655][912]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.04.04-18.02.51:691][912]LogSavePackage: Moving output files for package: /Game/VisualNovelSystem/DialogueSystem/TestTrees/MainStory
+[2024.04.04-18.02.51:691][912]LogSavePackage: Moving '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Saved/MainStoryB0A215E94A006E5624C0F887D55EF221.tmp' to '../../../../../../Users/Caleb Merroto/Documents/GitHub/MPA_Unreal/MPA_Unreal/Content/VisualNovelSystem/DialogueSystem/TestTrees/MainStory.uasset'
+[2024.04.04-18.02.51:712][912]LogFileHelpers: InternalPromptForCheckoutAndSave took 55 ms (total: 317 ms)
+[2024.04.04-18.02.51:718][912]AssetCheck: New page: Asset Save: MainStory
+[2024.04.04-18.02.51:718][912]LogContentValidation: Display: Validating /Script/DialogueSx.DialogueDataTable /Game/VisualNovelSystem/DialogueSystem/TestTrees/MainStory.MainStory
+[2024.04.04-18.02.51:737][912]LogAutomationController: Ignoring very large delta of 3.24 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2024.04.04-18.05.34:568][525]LogDerivedDataCache: C:/Users/Caleb Merroto/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.137 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 656 files in 1129 folders with total size 5 MiB.
