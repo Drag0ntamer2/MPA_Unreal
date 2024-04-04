@@ -256,6 +256,7 @@
 /I "Developer\PhysicsUtilities\Public"
 /I "..\Intermediate\Build\Win64\UnrealEditor\Inc\WidgetRegistration\UHT"
 /I "Developer\WidgetRegistration\Public"
+/I "C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Intermediate\Build\Win64\UnrealEditor\Inc\MPA_Unreal\UHT"
 /I "C:\Users\Caleb Merroto\Documents\GitHub\MPA_Unreal\MPA_Unreal\Source"
 /external:W0
 /external:I "ThirdParty\mimalloc\include"

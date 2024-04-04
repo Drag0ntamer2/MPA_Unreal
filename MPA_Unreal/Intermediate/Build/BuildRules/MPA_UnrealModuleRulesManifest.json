@@ -1,8 +1,9 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Caleb Merroto\\Documents\\GitHub\\MPA_Unreal\\MPA_Unreal\\Source\\MPA_Unreal\\MPA_Unreal.Build.cs",
-		"C:\\Users\\Caleb Merroto\\Documents\\GitHub\\MPA_Unreal\\MPA_Unreal\\Source\\MPA_Unreal.Target.cs",
-		"C:\\Users\\Caleb Merroto\\Documents\\GitHub\\MPA_Unreal\\MPA_Unreal\\Source\\MPA_UnrealEditor.Target.cs"
+		"F:\\github\\MPA_Unreal\\MPA_Unreal\\Source\\MPA_Unreal\\MPA_Unreal.Build.cs",
+		"F:\\github\\MPA_Unreal\\MPA_Unreal\\Plugins\\UnrealLive2D\\Source\\UnrealLive2D\\UnrealLive2D.Build.cs",
+		"F:\\github\\MPA_Unreal\\MPA_Unreal\\Source\\MPA_Unreal.Target.cs",
+		"F:\\github\\MPA_Unreal\\MPA_Unreal\\Source\\MPA_UnrealEditor.Target.cs"
 	],
 	"EngineVersion": "5.3.2"
 }

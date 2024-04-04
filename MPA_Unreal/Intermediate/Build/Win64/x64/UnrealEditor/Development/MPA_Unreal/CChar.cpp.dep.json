@@ -1,0 +1,21 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\mpa_unreal\\mpa_unreal\\source\\mpa_unreal\\cchar.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\mpa_unreal\\mpa_unreal\\intermediate\\build\\win64\\x64\\mpa_unrealeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\mpa_unreal\\mpa_unreal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mpa_unreal\\definitions.mpa_unreal.h",
+            "f:\\github\\mpa_unreal\\mpa_unreal\\source\\mpa_unreal\\cchar.h",
+            "f:\\github\\mpa_unreal\\mpa_unreal\\source\\mpa_unreal\\prey.h",
+            "f:\\github\\mpa_unreal\\mpa_unreal\\source\\mpa_unreal\\quirk.h",
+            "f:\\github\\mpa_unreal\\mpa_unreal\\intermediate\\build\\win64\\unrealeditor\\inc\\mpa_unreal\\uht\\quirk.generated.h",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\map",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\xtree",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\functional",
+            "c:\\program files\\microsoft visual studio\\2022\\community\\vc\\tools\\msvc\\14.38.33130\\include\\unordered_map"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

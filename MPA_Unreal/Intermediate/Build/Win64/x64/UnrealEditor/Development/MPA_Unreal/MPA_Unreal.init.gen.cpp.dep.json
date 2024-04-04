@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\github\\mpa_unreal\\mpa_unreal\\intermediate\\build\\win64\\unrealeditor\\inc\\mpa_unreal\\uht\\mpa_unreal.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\github\\mpa_unreal\\mpa_unreal\\intermediate\\build\\win64\\x64\\mpa_unrealeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "f:\\github\\mpa_unreal\\mpa_unreal\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\mpa_unreal\\definitions.mpa_unreal.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
