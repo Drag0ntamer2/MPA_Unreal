@@ -73,3 +73,6 @@ Plugins/*/Intermediate/*
 # Cache files for the editor to use
 DerivedDataCache/*
 *.log
+MPA_Unreal/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini
+MPA_Unreal/Saved/Config/WindowsEditor/Engine.ini
+MPA_Unreal/Saved/Logs/MPA_Unreal.log
